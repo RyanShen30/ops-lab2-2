@@ -1,0 +1,45 @@
+{
+  "repository": {
+    "default_branch": "main",
+    "full_name": "RyanShen30/ops-lab2-2",
+    "visibility": "public"
+  },
+  "collaborators": [
+    {
+      "login": "Liuxiang400",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "pull": true,
+        "push": true,
+        "triage": true
+      }
+    },
+    {
+      "login": "Shundi-Wu",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "pull": true,
+        "push": true,
+        "triage": true
+      }
+    },
+    {
+      "login": "RyanShen30",
+      "permissions": {
+        "admin": true,
+        "maintain": true,
+        "pull": true,
+        "push": true,
+        "triage": true
+      }
+    }
+  ],
+  "pending_invitations": [
+    {
+      "login": "ashkirakira",
+      "permissions": "write"
+    }
+  ]
+}

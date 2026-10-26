@@ -1,44 +1,105 @@
-# 实验 2 记录：第 <组号> 组
+# 实验 2 记录：第 2 组
 
-评分时依据本文件和 `runs/` 中的原始数据核对。本文件中的每一个数值，都须能在某个 `runs/<名字>/` 的文件中找到：表格用 `scripts/table.sh` 生成后粘贴，其他数值注明出处（例如“`runs/r1-pool4/red.csv` 第 6 阶段”）。不要只贴截图。将 `<填写>` 替换为本组的内容。
+本文件中的数值均注明原始数据出处。任务 0 的命令输出和基线原始日志见下方证据链接；后续 HTTP 实验的数据保存于 `runs/<名字>/`，表格使用 `scripts/table.sh` 生成后粘贴，其他数值注明具体文件与阶段。
 
 第 4.1、4.4、5.1、5.3 节的预测须在对应的测量之前写好，写好后不要修改。预测错误不扣分，与实测不一致之处在分析中讨论。
+
+本次更新完成任务 0 的环境与基线记录，采集日期为 **2026-10-26（Asia/Shanghai，UTC+08:00）**。任务 0 的主机命令、fsync 基准和资源工具原始输出保存在 [`evidence/task0-20261026/`](evidence/task0-20261026/README.md)，各数值的来源如下；后续 HTTP 实验按指导书使用 `scripts/run.sh` 生成 `runs/` 数据。任务 1～4 的实验与预测保留待填写。
 
 ## 1. 基本信息
 
 | 项 | 内容 |
 |---|---|
-| 小组 | 第 <组号> 组 |
-| 仓库地址 | <https://github.com/…> |
-| 主机 | <云厂商与规格名，例如某云的 2 vCPU 4 GB 通用型；或学校的虚拟机> |
-| CPU | <`lscpu` 的 Model name；vCPU 数；`lscpu -e` 里每个 CPU 对应的 CORE> |
-| 内存 | <`free -m` 的 total> |
-| 数据目录所在的盘 | <`findmnt -T data` 的 SOURCE 和 FSTYPE；磁盘类型，如“通用型 SSD 云盘 40 GB”> |
-| 操作系统与内核 | <`/etc/os-release` 的 PRETTY_NAME；`uname -r`> |
-| Go、Prometheus、node_exporter | <`go version`；`tools/prometheus --version` 第一行；`tools/node_exporter --version` 第一行> |
-| 分核 | enrolld：<如 1>；loadgen、Prometheus、node_exporter：<如 0> |
+| 小组 | 第 2 组 |
+| 仓库地址 | <https://github.com/RyanShen30/ops-lab2-2>；公开仓库，默认分支 `main` |
+| 主机 | OpenStack Nova / KVM 虚拟机；来宾可见配置为 4 vCPU、7556 MiB 内存、40G 虚拟磁盘。DMI 为 `OpenStack Foundation` / `OpenStack Nova`；具体云厂商与商品规格名未由来宾信息确认，不据此推断底层物理机规格 |
+| CPU | `General Purpose Processor`（Vendor ID：`GenuineIntel`）；4 vCPU；来宾暴露 1 socket、2 CORE、每 CORE 2 个线程。CPU 0/1 → CORE 0，CPU 2/3 → CORE 1 |
+| 内存 | `free -m` 的 total 为 7556 MiB；采集时 available 为 6844 MiB；swap 为 0 |
+| 数据目录所在的盘 | 仓库 `data/` 位于 `/dev/vda1`，文件系统 `ext4`，挂载于 `/`；整盘设备 `vda`，`lsblk` 显示 40G；数据目录位于块设备，非 tmpfs。`ROTA=1` 为虚拟设备上报值，底层 SSD/HDD 类型未确认 |
+| 操作系统与内核 | `Ubuntu 24.04.5 LTS`；内核 `6.8.0-147-generic` |
+| Go、Prometheus、node_exporter | `go version go1.26.9 linux/amd64`；Prometheus `3.13.4`；node_exporter `1.12.1`。`scripts/get-tools.sh` 已成功完成固定 SHA-256 校验并解压 |
+| 分核 | 后续 enrolld 使用 CPU `2-3`；loadgen、Prometheus、node_exporter 使用 CPU `0-1`。按来宾可见 CORE 分开服务与压测/监控；本任务 fsync 基准按指导书直接执行，未对基准额外绑核 |
+
+以上环境数值来源：[`host.txt`](evidence/task0-20261026/host.txt)。`make build test` 已通过，三个二进制生成成功，四个 Go 包测试全部通过，原始输出见 [`build-test.log`](evidence/task0-20261026/build-test.log)；下载与校验过程见 [`get-tools.log`](evidence/task0-20261026/get-tools.log)。sysstat `12.6.1-2`、procps `2:4.0.4-4ubuntu3.3` 已预装，本次无需安装软件包。
+
+权限记录：当前用户 `sra` 属于 `sudo` 组；`sudo -n true` 返回“a password is required”，说明非交互 sudo 需要认证，本次未执行提权操作。已安装工具足以完成本任务；后续需要 sudo 时须在交互终端认证，不在报告中保存凭据。
+
+仓库协作状态来源：[`repository-access.json`](evidence/task0-20261026/repository-access.json)。`RyanShen30` 为管理员；`Liuxiang400`、`Shundi-Wu` 已有 push 权限；`ashkirakira` 的 Write 邀请已经发出、采集时待接受。
+
+关键命令实际输出节选（完整输出见 `host.txt`）：
+
+```text
+$ lscpu -e
+CPU NODE SOCKET CORE L1d:L1i:L2:L3 ONLINE
+  0    0      0    0 0:0:0:0          yes
+  1    0      0    0 0:0:0:0          yes
+  2    0      0    1 1:1:1:0          yes
+  3    0      0    1 1:1:1:0          yes
+
+$ free -m
+               total        used        free      shared  buff/cache   available
+Mem:            7556         712        5137           2        1980        6844
+Swap:              0           0           0
+
+$ findmnt -T data
+TARGET SOURCE    FSTYPE OPTIONS
+/      /dev/vda1 ext4   rw,relatime
+
+$ lsblk -o NAME,TYPE,SIZE,ROTA,FSTYPE,MOUNTPOINTS
+NAME   TYPE SIZE ROTA FSTYPE MOUNTPOINTS
+vda    disk  40G    1
+└─vda1 part  40G    1 ext4   /
+```
 
 ## 2. 任务 0：基线
 
-`bin/enrolld -bench-fsync 2000` 连续运行三次的输出：
+在仓库根目录连续运行三次 `bin/enrolld -bench-fsync 2000`。程序在真实块设备上的 `data/` 中追加记录并调用 fsync；三次原始输出分别见 [`fsync-1.txt`](evidence/task0-20261026/fsync-1.txt)、[`fsync-2.txt`](evidence/task0-20261026/fsync-2.txt)、[`fsync-3.txt`](evidence/task0-20261026/fsync-3.txt)，执行时间与退出状态见 [`fsync-runs.json`](evidence/task0-20261026/fsync-runs.json)。
 
 ```text
-<粘贴三次的输出>
+第 1 次：
+fsync 次数 2000，总耗时 2.49 s，数据目录 data
+fsync 耗时（毫秒）：mean 1.238  p50 1.175  p90 1.394  p99 2.411  max 10.325
+按平均值推算，一个写者串行 fsync 每秒最多约 808 次（= 1000 / 1.238）
+第 2 次：
+fsync 次数 2000，总耗时 2.49 s，数据目录 data
+fsync 耗时（毫秒）：mean 1.240  p50 1.166  p90 1.434  p99 2.393  max 5.460
+按平均值推算，一个写者串行 fsync 每秒最多约 806 次（= 1000 / 1.240）
+第 3 次：
+fsync 次数 2000，总耗时 2.46 s，数据目录 data
+fsync 耗时（毫秒）：mean 1.227  p50 1.160  p90 1.414  p99 2.371  max 4.823
+按平均值推算，一个写者串行 fsync 每秒最多约 815 次（= 1000 / 1.227）
 ```
 
-按平均值计算，单个写者串行 fsync 每秒最多约 <填写> 次。三次之间相差多少？<填写>
+三次各含 2000 次 fsync，按程序输出的三位小数 mean 等权平均：
 
-空载和运行 fsync 测试时各工具的读数（各观察 5 秒以上，填写典型值）：
+```text
+平均耗时 = (1.238 + 1.240 + 1.227) / 3 = 1.235 ms
+串行 fsync 上限估计 = 1000 / 1.235 = 809.72 次/秒，约 810 次/秒
+三次 mean 的最大差 = 1.240 - 1.227 = 0.013 ms
+相对差异 = 0.013 / 1.235 × 100% ≈ 1.05%
+```
+
+三次平均值接近，p99 分别为 2.411、2.393、2.371 ms；单次最大耗时可到 10.325 ms。约 810 次/秒是该主机、文件系统与测量时段下，依据 fsync 平均耗时推算的单个写者串行上限；未计入应用其他开销，后续写路径仍须实测验证。计算使用输出中已舍入的 mean，来源见 [`summary.json`](evidence/task0-20261026/summary.json)。
+
+资源观测：同时运行 `LC_ALL=C vmstat -w 1` 与 `LC_ALL=C iostat -dx 1 vda`，先观察 10.5 秒空载，再连续运行两次 `bin/enrolld -bench-fsync 5000`。单次约 6 秒，因此用两次覆盖超过 10 秒的写盘观测；两次输出保存在 `fsync-observe-1.txt`、`fsync-observe-2.txt`。原始日志分别为 [`vmstat.log`](evidence/task0-20261026/vmstat.log) 和 [`iostat.log`](evidence/task0-20261026/iostat.log)。
+
+采样口径：排除两个工具开机以来的第一组统计；按采集时间只选完整落在单个空载或 fsync 区间内的 1 秒样本，排除跨阶段样本。两个工具各选取空载 **10 个**、fsync **11 个**样本。下表“典型值”取这些样本的算术平均并保留两位小数；`w_await`、`f_await` 是各秒读数的平均，包含无 I/O 时输出的 0，用于展示典型状态，未解释为所有 I/O 合并后的加权均值。vmstat 百分比原始读数已取整，均值相加可能有舍入误差。
+
+阶段时间见 [`observation.json`](evidence/task0-20261026/observation.json)，原始行与采集时刻对应见 [`monitor-lines.jsonl`](evidence/task0-20261026/monitor-lines.jsonl)，选中样本及其原始日志行号见 [`vmstat-selected.csv`](evidence/task0-20261026/vmstat-selected.csv)、[`iostat-selected.csv`](evidence/task0-20261026/iostat-selected.csv)。表格由这些样本自动汇总，结果见 [`baseline-table.md`](evidence/task0-20261026/baseline-table.md) 和 [`summary.csv`](evidence/task0-20261026/summary.csv)。
 
 | 工具与列 | 空载 | 运行 `-bench-fsync` 时 | 该列的含义 |
 |---|---|---|---|
-| `vmstat -w 1`：r、b | <填写> | <填写> | <填写> |
-| `vmstat -w 1`：us、sy、id、wa、st | <填写> | <填写> | <填写> |
-| `iostat -dx 1 <盘>`：w/s、wkB/s | <填写> | <填写> | <填写> |
-| `iostat -dx 1 <盘>`：w_await、f/s、f_await | <填写> | <填写> | <填写> |
-| `iostat -dx 1 <盘>`：aqu-sz、%util | <填写> | <填写> | <填写> |
+| `vmstat -w 1`：r、b | r=0.00；b=0.20 | r=0.18；b=1.00 | r：可运行任务数；b：处于不可中断睡眠的阻塞任务数，常与 I/O 等待有关；此处为采样均值 |
+| `vmstat -w 1`：us、sy、id、wa、st | us=0.30%；sy=0.10%；id=99.40%；wa=0.00%；st=0.00% | us=0.18%；sy=1.91%；id=74.64%；wa=23.27%；st=0.00% | 用户态 CPU、内核态 CPU、空闲、I/O 等待、被宿主机占用的 CPU 时间比例；均为全机口径 |
+| `iostat -dx 1 vda`：w/s、wkB/s | w/s=4.50；wkB/s=122.00 | w/s=2355.73；wkB/s=12857.09 | 每秒块设备写请求数、每秒写入量（kB/s） |
+| `iostat -dx 1 vda`：w_await、f/s、f_await | w_await=0.51；f/s=0.40；f_await=0.00 | w_await=0.41；f/s=1567.45；f_await=0.05 | 每次写 I/O 平均耗时（ms）、每秒 flush 次数、每次 flush 平均耗时（ms）；此表为每秒读数的算术平均 |
+| `iostat -dx 1 vda`：aqu-sz、%util | aqu-sz=0.00；%util=0.07 | aqu-sz=1.04；%util=95.91 | 平均未完成 I/O 数、设备存在 I/O 的忙碌时间比例（%）；云盘的 %util 不能单独代表底层容量 |
 
-运行 fsync 测试时，CPU 是否繁忙？哪几列表明存在等待？<填写>
+运行 fsync 测试时，CPU 执行计算并不繁忙：全机 `us+sy` 约为 **2.09%**，`id` 为 **74.64%**；`wa` 为 **23.27%**，表示 I/O 等待时间，不能计作 CPU 正在执行计算。`st=0`，本次窗口内未观察到 CPU steal。
+
+等待证据为：选中的 fsync 样本 `b` 均为 1，`wa` 从空载 0 上升到约 23.27%；设备平均未完成 I/O 数 `aqu-sz` 约 **1.04**，`%util` 约 **95.91%**，同时写入和 flush 频率明显增加。说明这个串行写者主要等待 I/O 完成。单个写 I/O 的 `w_await` 约 0.41 ms，flush 的 `f_await` 约 0.05 ms，口径按块设备 I/O 统计，不能直接当作一次应用 fsync 的全部耗时。
+
+空载仍存在后台 I/O：`w/s` 均值 4.50、`b` 有一次取到 2；“空载”指未主动执行本实验负载。不能仅凭 `%util` 接近 100% 就断定云盘底层容量已经饱和，本任务结论限于当前单写者 fsync 的等待表现。
 
 ## 3. 任务 1：指标流水线
 
@@ -176,4 +237,7 @@ W2 的到达率：<填写>
 
 | GitHub 用户名 | 负责的部分 |
 |---|---|
-| <用户名> | <填写> |
+| RyanShen30 | 任务 0：环境核验、构建测试与工具下载、fsync 基线、资源观测、报告及原始证据整理 |
+| Liuxiang400 | 后续任务分工待确认 |
+| Shundi-Wu | 后续任务分工待确认 |
+| ashkirakira | 后续任务分工待确认；采集时仓库 Write 邀请待接受 |

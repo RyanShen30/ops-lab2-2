@@ -1,0 +1,226 @@
+{
+  "selection_rule": "Exclude first since-boot report; select one-second intervals wholly inside a single idle or fsync phase; omit boundary intervals. Report typical values as arithmetic means of selected one-second samples.",
+  "counts": {
+    "vmstat": {
+      "idle": 10,
+      "fsync": 11
+    },
+    "iostat": {
+      "idle": 10,
+      "fsync": 11
+    }
+  },
+  "stats": {
+    "vmstat": {
+      "r": {
+        "idle": {
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "fsync": {
+          "mean": 0.18181818181818182,
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "b": {
+        "idle": {
+          "mean": 0.2,
+          "min": 0.0,
+          "max": 2.0
+        },
+        "fsync": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        }
+      },
+      "us": {
+        "idle": {
+          "mean": 0.3,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "fsync": {
+          "mean": 0.18181818181818182,
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "sy": {
+        "idle": {
+          "mean": 0.1,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "fsync": {
+          "mean": 1.9090909090909092,
+          "min": 1.0,
+          "max": 2.0
+        }
+      },
+      "id": {
+        "idle": {
+          "mean": 99.4,
+          "min": 98.0,
+          "max": 100.0
+        },
+        "fsync": {
+          "mean": 74.63636363636364,
+          "min": 74.0,
+          "max": 75.0
+        }
+      },
+      "wa": {
+        "idle": {
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "fsync": {
+          "mean": 23.272727272727273,
+          "min": 23.0,
+          "max": 24.0
+        }
+      },
+      "st": {
+        "idle": {
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "fsync": {
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    },
+    "iostat": {
+      "w/s": {
+        "idle": {
+          "mean": 4.5,
+          "min": 0.0,
+          "max": 14.0
+        },
+        "fsync": {
+          "mean": 2355.7272727272725,
+          "min": 2221.0,
+          "max": 2480.0
+        }
+      },
+      "wkB/s": {
+        "idle": {
+          "mean": 122.0,
+          "min": 0.0,
+          "max": 896.0
+        },
+        "fsync": {
+          "mean": 12857.09090909091,
+          "min": 12064.0,
+          "max": 13536.0
+        }
+      },
+      "w_await": {
+        "idle": {
+          "mean": 0.507,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "fsync": {
+          "mean": 0.4081818181818182,
+          "min": 0.4,
+          "max": 0.43
+        }
+      },
+      "f/s": {
+        "idle": {
+          "mean": 0.4,
+          "min": 0.0,
+          "max": 2.0
+        },
+        "fsync": {
+          "mean": 1567.4545454545455,
+          "min": 1480.0,
+          "max": 1632.0
+        }
+      },
+      "f_await": {
+        "idle": {
+          "mean": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "fsync": {
+          "mean": 0.045454545454545456,
+          "min": 0.04,
+          "max": 0.05
+        }
+      },
+      "aqu-sz": {
+        "idle": {
+          "mean": 0.003,
+          "min": 0.0,
+          "max": 0.01
+        },
+        "fsync": {
+          "mean": 1.0372727272727273,
+          "min": 1.03,
+          "max": 1.05
+        }
+      },
+      "%util": {
+        "idle": {
+          "mean": 0.07,
+          "min": 0.0,
+          "max": 0.3
+        },
+        "fsync": {
+          "mean": 95.9090909090909,
+          "min": 94.9,
+          "max": 97.1
+        }
+      }
+    }
+  },
+  "source_files": {
+    "vmstat": "vmstat.log",
+    "iostat": "iostat.log",
+    "time_alignment": "monitor-lines.jsonl",
+    "phases": "observation.json"
+  },
+  "fsync": {
+    "trials": [
+      {
+        "run": 1,
+        "mean_ms": 1.238,
+        "p50_ms": 1.175,
+        "p90_ms": 1.394,
+        "p99_ms": 2.411,
+        "max_ms": 10.325
+      },
+      {
+        "run": 2,
+        "mean_ms": 1.24,
+        "p50_ms": 1.166,
+        "p90_ms": 1.434,
+        "p99_ms": 2.393,
+        "max_ms": 5.46
+      },
+      {
+        "run": 3,
+        "mean_ms": 1.227,
+        "p50_ms": 1.16,
+        "p90_ms": 1.414,
+        "p99_ms": 2.371,
+        "max_ms": 4.823
+      }
+    ],
+    "mean_of_reported_means_ms": 1.235,
+    "estimated_serial_fsync_per_s": 809.7165991902833,
+    "max_minus_min_mean_ms": 0.0129999999999999,
+    "relative_spread_pct": 1.0526315789473601,
+    "precision_note": "Calculations use the three means printed to 0.001 ms; each run has the same 2000 operations."
+  }
+}

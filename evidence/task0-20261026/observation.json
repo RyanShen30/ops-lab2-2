@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-10-26T20:09:48.549012+08:00",
+  "commands": {
+    "vmstat": "LC_ALL=C vmstat -w 1",
+    "iostat": "LC_ALL=C iostat -dx 1 vda"
+  },
+  "phases": [
+    {
+      "name": "idle",
+      "start_seconds": 0.0022405319978133775,
+      "end_seconds": 10.502329785995244
+    },
+    {
+      "name": "fsync-observe-1",
+      "command": "bin/enrolld -bench-fsync 5000",
+      "start_seconds": 10.502391217996774,
+      "end_seconds": 16.79659937699762,
+      "exit_code": 0
+    },
+    {
+      "name": "fsync-observe-2",
+      "command": "bin/enrolld -bench-fsync 5000",
+      "start_seconds": 16.796781641998678,
+      "end_seconds": 23.271624984998198,
+      "exit_code": 0
+    }
+  ],
+  "ended_at": "2026-10-26T20:10:13.021968+08:00"
+}

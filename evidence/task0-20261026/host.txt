@@ -1,0 +1,142 @@
+Collected at 2026-10-26T20:08:00.734491+08:00
+
+$ lscpu
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           42 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              General Purpose Processor
+CPU family:                              6
+Model:                                   106
+Thread(s) per core:                      2
+Core(s) per socket:                      2
+Socket(s):                               1
+Stepping:                                6
+BogoMIPS:                                5600.00
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves wbnoinvd arat avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq fsrm md_clear arch_capabilities
+Hypervisor vendor:                       KVM
+Virtualization type:                     full
+L1d cache:                               96 KiB (2 instances)
+L1i cache:                               64 KiB (2 instances)
+L2 cache:                                2.5 MiB (2 instances)
+L3 cache:                                57 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Unknown: Dependent on hypervisor status
+Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+[exit 0]
+
+$ lscpu -e
+CPU NODE SOCKET CORE L1d:L1i:L2:L3 ONLINE
+  0    0      0    0 0:0:0:0          yes
+  1    0      0    0 0:0:0:0          yes
+  2    0      0    1 1:1:1:0          yes
+  3    0      0    1 1:1:1:0          yes
+[exit 0]
+
+$ free -m
+               total        used        free      shared  buff/cache   available
+Mem:            7556         712        5137           2        1980        6844
+Swap:              0           0           0
+[exit 0]
+
+$ uname -r
+6.8.0-147-generic
+[exit 0]
+
+$ cat /etc/os-release
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+[exit 0]
+
+$ findmnt -T data
+TARGET SOURCE    FSTYPE OPTIONS
+/      /dev/vda1 ext4   rw,relatime
+[exit 0]
+
+$ lsblk -o NAME,TYPE,SIZE,ROTA,FSTYPE,MOUNTPOINTS
+NAME   TYPE SIZE ROTA FSTYPE MOUNTPOINTS
+vda    disk  40G    1        
+└─vda1 part  40G    1 ext4   /
+[exit 0]
+
+$ go version
+go version go1.26.9 linux/amd64
+[exit 0]
+
+$ tools/prometheus --version
+prometheus, version 3.13.4 (branch: HEAD, revision: 007a9e9ba628f815ce83e1ba9f29b97981996c3c)
+  build user:       root@f73b5a01ed25
+  build date:       20260929-13:32:05
+  go version:       go1.26.8
+  platform:         linux/amd64
+  tags:             netgo,builtinassets
+[exit 0]
+
+$ tools/node_exporter --version
+node_exporter, version 1.12.1 (branch: HEAD, revision: 6044da783597cc3b57aef7580ddcdcff58a4ee99)
+  build user:       root@3a6b59999579
+  build date:       20260714-12:05:11
+  go version:       go1.26.5
+  platform:         linux/amd64
+  tags:             unknown
+[exit 0]
+
+$ dpkg-query -W sysstat procps
+procps	2:4.0.4-4ubuntu3.3
+sysstat	12.6.1-2
+[exit 0]
+
+$ systemd-detect-virt
+kvm
+[exit 0]
+
+$ sudo -n true
+sudo: a password is required
+[exit 1]
+
+$ git rev-parse HEAD
+0ee1fe54493cdcc467c7687cc2009d6d1edde48d
+[exit 0]
+
+$ cat /sys/class/dmi/id/sys_vendor
+OpenStack Foundation
+
+$ cat /sys/class/dmi/id/product_name
+OpenStack Nova
+
+$ cat /sys/class/dmi/id/product_version
+13.2.1-20260520162002_02ad30b
+
+$ id
+uid=1000(sra) gid=1000(sra) groups=1000(sra),27(sudo),100(users)
+[exit 0]

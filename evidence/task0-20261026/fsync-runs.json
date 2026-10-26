@@ -1,0 +1,23 @@
+[
+  {
+    "run": 1,
+    "command": "bin/enrolld -bench-fsync 2000",
+    "started_at": "2026-10-26T20:08:00.790492+08:00",
+    "wall_seconds": 2.487804010997934,
+    "exit_code": 0
+  },
+  {
+    "run": 2,
+    "command": "bin/enrolld -bench-fsync 2000",
+    "started_at": "2026-10-26T20:08:03.278506+08:00",
+    "wall_seconds": 2.4916546219974407,
+    "exit_code": 0
+  },
+  {
+    "run": 3,
+    "command": "bin/enrolld -bench-fsync 2000",
+    "started_at": "2026-10-26T20:08:05.770375+08:00",
+    "wall_seconds": 2.4650181229953887,
+    "exit_code": 0
+  }
+]

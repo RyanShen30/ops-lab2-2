@@ -1,0 +1,9 @@
+$ make build test
+go build -o bin/enrolld ./cmd/enrolld
+go build -o bin/loadgen ./cmd/loadgen
+go build -o bin/promsteps ./cmd/promsteps
+go test -count=1 ./...
+ok  	enroll-lab/cmd/enrolld	0.783s
+ok  	enroll-lab/cmd/loadgen	3.163s
+ok  	enroll-lab/cmd/promsteps	0.005s
+ok  	enroll-lab/internal/metrics	0.003s
