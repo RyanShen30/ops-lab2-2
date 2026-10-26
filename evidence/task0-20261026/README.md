@@ -10,7 +10,8 @@
 |---|---|
 | make build test | build-test.log |
 | scripts/get-tools.sh；脚本固定 SHA-256 校验成功后才解压 | get-tools.log |
-| lscpu、lscpu -e、free -m、uname -r、OS、挂载、磁盘、工具版本、DMI、id、非交互 sudo 检查 | host.txt |
+| lscpu、lscpu -e、free -m、uname -r、OS、挂载、磁盘、工具版本、DMI、id | host.txt |
+| 用户提供的华为云控制台截图中的实例规格与系统盘信息，2026-10-27 补录 | cloud-specification.md |
 | 连续三次 bin/enrolld -bench-fsync 2000 | fsync-1.txt、fsync-2.txt、fsync-3.txt |
 | 三次执行的时间与退出状态 | fsync-runs.json |
 | LC_ALL=C vmstat -w 1 | vmstat.log |
@@ -21,7 +22,7 @@
 | 选中的每秒样本、原始文件行号和区间 | vmstat-selected.csv、iostat-selected.csv |
 | 各列均值/最小值/最大值、fsync 容量计算 | summary.json、summary.csv |
 | 自动生成的报告基线表 | baseline-table.md |
-| 公开性、协作者权限与既有待接受邀请的只读快照 | repository-access.json |
+| 仓库公开性及协作者权限的只读快照 | repository-access.json |
 
 ## 观测与汇总方法
 
@@ -32,4 +33,4 @@
 5. 每个工具选中空载 10 个、fsync 11 个每秒样本。各列的算术平均用于报告典型值；完整范围见 summary.json。await 列不是按 I/O 次数加权的全程平均。
 6. 三次基准各 2000 次，使用打印的 mean 等权平均得到 1.235 ms；1000/1.235=809.7166 次/秒，作为串行 fsync 的估计上限。打印值精度为 0.001 ms。
 
-来宾可见硬件为 OpenStack Nova/KVM，具体云厂商、商品规格名和云盘底层介质未确认；未编造这些信息。非交互 sudo 需要密码，本次使用预装工具完成测量，未保存任何认证凭据。已有一位成员的 Write 邀请待其本人接受。
+2026-10-27 根据用户提供的华为云控制台截图补录：华为云 ECS，通用计算型 `x1.4u.8g`，4 vCPU、8 GiB，华东-上海一、可用区 3；系统盘为通用型 SSD，40 GiB。字段摘录见 [cloud-specification.md](cloud-specification.md)。来宾系统检测到 OpenStack Nova/KVM；`free -m` 实测 total 7556 MiB 与控制台配置 8 GiB 分别记录，基线原始输出保持采集时的内容。

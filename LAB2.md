@@ -12,19 +12,17 @@
 |---|---|
 | 小组 | 第 2 组 |
 | 仓库地址 | <https://github.com/RyanShen30/ops-lab2-2>；公开仓库，默认分支 `main` |
-| 主机 | OpenStack Nova / KVM 虚拟机；来宾可见配置为 4 vCPU、7556 MiB 内存、40G 虚拟磁盘。DMI 为 `OpenStack Foundation` / `OpenStack Nova`；具体云厂商与商品规格名未由来宾信息确认，不据此推断底层物理机规格 |
+| 主机 | 华为云弹性云服务器 ECS，通用计算型 `x1.4u.8g`；控制台配置为 4 vCPU、8 GiB 内存；区域为华东-上海一，可用区 3。来宾系统检测为 OpenStack Nova / KVM |
 | CPU | `General Purpose Processor`（Vendor ID：`GenuineIntel`）；4 vCPU；来宾暴露 1 socket、2 CORE、每 CORE 2 个线程。CPU 0/1 → CORE 0，CPU 2/3 → CORE 1 |
-| 内存 | `free -m` 的 total 为 7556 MiB；采集时 available 为 6844 MiB；swap 为 0 |
-| 数据目录所在的盘 | 仓库 `data/` 位于 `/dev/vda1`，文件系统 `ext4`，挂载于 `/`；整盘设备 `vda`，`lsblk` 显示 40G；数据目录位于块设备，非 tmpfs。`ROTA=1` 为虚拟设备上报值，底层 SSD/HDD 类型未确认 |
+| 内存 | 控制台配置为 8 GiB；基线采集时 `free -m` 的 total 为 7556 MiB，available 为 6844 MiB，swap 为 0。实验计算采用来宾系统实测值 |
+| 数据目录所在的盘 | 华为云 EVS 系统盘，通用型 SSD，40 GiB；仓库 `data/` 位于 `/dev/vda1`，文件系统 `ext4`，挂载于 `/`；整盘设备为 `vda`，数据目录位于块设备，非 tmpfs。`ROTA=1` 是虚拟设备上报值，磁盘类型按控制台信息记录 |
 | 操作系统与内核 | `Ubuntu 24.04.5 LTS`；内核 `6.8.0-147-generic` |
 | Go、Prometheus、node_exporter | `go version go1.26.9 linux/amd64`；Prometheus `3.13.4`；node_exporter `1.12.1`。`scripts/get-tools.sh` 已成功完成固定 SHA-256 校验并解压 |
 | 分核 | 后续 enrolld 使用 CPU `2-3`；loadgen、Prometheus、node_exporter 使用 CPU `0-1`。按来宾可见 CORE 分开服务与压测/监控；本任务 fsync 基准按指导书直接执行，未对基准额外绑核 |
 
-以上环境数值来源：[`host.txt`](evidence/task0-20261026/host.txt)。`make build test` 已通过，三个二进制生成成功，四个 Go 包测试全部通过，原始输出见 [`build-test.log`](evidence/task0-20261026/build-test.log)；下载与校验过程见 [`get-tools.log`](evidence/task0-20261026/get-tools.log)。sysstat `12.6.1-2`、procps `2:4.0.4-4ubuntu3.3` 已预装，本次无需安装软件包。
+云厂商、实例规格、配置内存、区域及磁盘类型来源于用户提供的华为云控制台截图，补录日期为 2026-10-27，字段摘录见 [`cloud-specification.md`](evidence/task0-20261026/cloud-specification.md)。来宾系统环境与基线数值来源于 2026-10-26 采集的 [`host.txt`](evidence/task0-20261026/host.txt)。`make build test` 已通过，三个二进制生成成功，四个 Go 包测试全部通过，原始输出见 [`build-test.log`](evidence/task0-20261026/build-test.log)；下载与校验过程见 [`get-tools.log`](evidence/task0-20261026/get-tools.log)。sysstat `12.6.1-2`、procps `2:4.0.4-4ubuntu3.3` 已预装，本次无需安装软件包。
 
-权限记录：当前用户 `sra` 属于 `sudo` 组；`sudo -n true` 返回“a password is required”，说明非交互 sudo 需要认证，本次未执行提权操作。已安装工具足以完成本任务；后续需要 sudo 时须在交互终端认证，不在报告中保存凭据。
-
-仓库协作状态来源：[`repository-access.json`](evidence/task0-20261026/repository-access.json)。`RyanShen30` 为管理员；`Liuxiang400`、`Shundi-Wu` 已有 push 权限；`ashkirakira` 的 Write 邀请已经发出、采集时待接受。
+仓库协作状态来源：[`repository-access.json`](evidence/task0-20261026/repository-access.json)。`RyanShen30` 为管理员；`Liuxiang400`、`Shundi-Wu` 已有 push 权限。
 
 关键命令实际输出节选（完整输出见 `host.txt`）：
 
@@ -240,4 +238,4 @@ W2 的到达率：<填写>
 | RyanShen30 | 任务 0：环境核验、构建测试与工具下载、fsync 基线、资源观测、报告及原始证据整理 |
 | Liuxiang400 | 后续任务分工待确认 |
 | Shundi-Wu | 后续任务分工待确认 |
-| ashkirakira | 后续任务分工待确认；采集时仓库 Write 邀请待接受 |
+| ashkirakira | 后续任务分工待确认 |
