@@ -1,0 +1,52 @@
+{
+  "prepared_at": "2026-10-27T18:00:05.111611+08:00",
+  "mode": "group",
+  "base": 810.0,
+  "rates": "324,648,810,1215,1620,2430,3240",
+  "commands": [
+    [
+      "taskset",
+      "-c",
+      "0-1",
+      "tools/node_exporter",
+      "--web.listen-address=127.0.0.1:19100"
+    ],
+    [
+      "taskset",
+      "-c",
+      "0-1",
+      "tools/prometheus",
+      "--config.file=evidence/task3-20261027/prometheus.yml",
+      "--storage.tsdb.path=/dev/shm/lab2-prom-1003-w2-group",
+      "--web.listen-address=127.0.0.1:19090"
+    ],
+    [
+      "taskset",
+      "-c",
+      "2-3",
+      "bin/enrolld",
+      "-addr",
+      "127.0.0.1:18080",
+      "-sync",
+      "group",
+      "-data",
+      "data/task3-w2-group"
+    ]
+  ],
+  "load_command": [
+    "scripts/run.sh",
+    "w2-group",
+    "-url",
+    "http://127.0.0.1:18080/api/enroll",
+    "-body",
+    "{\"student\":\"s{{seq}}\",\"course\":\"c1\"}",
+    "-rates",
+    "324,648,810,1215,1620,2430,3240"
+  ],
+  "prediction": "evidence/task3-20261027/prediction-w2.md",
+  "prediction_sha256": "f1a79d2ba6e489fb2bac5b8ef97133d6db5c7b9cbe202a8b3aae1851009cb9b8",
+  "commit": "76a2e2ab9861fbfc2635d79d257f86a2f2cac169",
+  "measurement_started_at": "2026-10-27T18:00:25.146145+08:00",
+  "measurement_finished_at": "2026-10-27T18:03:56.420411+08:00",
+  "cleanup_at": "2026-10-27T18:03:56.432096+08:00"
+}

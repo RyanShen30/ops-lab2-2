@@ -1,0 +1,189 @@
+2026-10-27T17:52:16+08:00
+Linux ecs-59c8 6.8.0-147-generic #147-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 24 11:33:16 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+CPU NODE SOCKET CORE L1d:L1i:L2:L3 ONLINE
+  0    0      0    0 0:0:0:0          yes
+  1    0      0    0 0:0:0:0          yes
+  2    0      0    1 1:1:1:0          yes
+  3    0      0    1 1:1:1:0          yes
+               total        used        free      shared  buff/cache   available
+Mem:            7556         799        3805          19        3269        6757
+Swap:              0           0           0
+NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
+vda    253:0    0  40G  0 disk 
+└─vda1 253:1    0  40G  0 part /
+go version go1.26.9 linux/amd64
+USER         PID %CPU COMMAND
+root           1  0.0 /sbin/init noibrs
+root           2  0.0 [kthreadd]
+root           3  0.0 [pool_workqueue_release]
+root           4  0.0 [kworker/R-rcu_g]
+root           5  0.0 [kworker/R-rcu_p]
+root           6  0.0 [kworker/R-slub_]
+root           7  0.0 [kworker/R-netns]
+root           9  0.0 [kworker/0:0H-events_highpri]
+root          12  0.0 [kworker/R-mm_pe]
+root          13  0.0 [rcu_tasks_kthread]
+root          14  0.0 [rcu_tasks_rude_kthread]
+root          15  0.0 [rcu_tasks_trace_kthread]
+root          16  0.0 [ksoftirqd/0]
+root          17  0.1 [rcu_preempt]
+root          18  0.0 [migration/0]
+root          19  0.0 [idle_inject/0]
+root          20  0.0 [cpuhp/0]
+root          21  0.0 [cpuhp/2]
+root          22  0.0 [idle_inject/2]
+root          23  0.0 [migration/2]
+root          24  0.0 [ksoftirqd/2]
+root          26  0.0 [kworker/2:0H-events_highpri]
+root          27  0.0 [cpuhp/1]
+root          28  0.0 [idle_inject/1]
+root          29  0.0 [migration/1]
+root          30  0.0 [ksoftirqd/1]
+root          32  0.0 [kworker/1:0H-events_highpri]
+root          33  0.0 [cpuhp/3]
+root          34  0.0 [idle_inject/3]
+root          35  0.0 [migration/3]
+root          36  0.0 [ksoftirqd/3]
+root          38  0.0 [kworker/3:0H-events_highpri]
+root          39  0.0 [kdevtmpfs]
+root          40  0.0 [kworker/R-inet_]
+root          41  0.0 [kauditd]
+root          42  0.0 [khungtaskd]
+root          43  0.0 [oom_reaper]
+root          45  0.0 [kworker/R-write]
+root          47  0.0 [kcompactd0]
+root          48  0.0 [ksmd]
+root          49  0.0 [khugepaged]
+root          50  0.0 [kworker/R-kinte]
+root          51  0.0 [kworker/R-kbloc]
+root          52  0.0 [kworker/R-blkcg]
+root          53  0.0 [irq/9-acpi]
+root          56  0.0 [kworker/R-tpm_d]
+root          57  0.0 [kworker/R-ata_s]
+root          58  0.0 [kworker/R-md]
+root          59  0.0 [kworker/R-md_bi]
+root          60  0.0 [kworker/R-edac-]
+root          61  0.0 [kworker/R-devfr]
+root          62  0.0 [watchdogd]
+root          63  0.0 [kworker/R-quota]
+root          64  0.0 [kworker/0:1H-kblockd]
+root          65  0.0 [kswapd0]
+root          66  0.0 [ecryptfs-kthread]
+root          67  0.0 [kworker/R-kthro]
+root          69  0.0 [kworker/R-acpi_]
+root          71  0.0 [scsi_eh_0]
+root          72  0.0 [kworker/R-scsi_]
+root          73  0.0 [scsi_eh_1]
+root          74  0.0 [kworker/R-scsi_]
+root          75  0.0 [scsi_eh_2]
+root          76  0.0 [kworker/R-scsi_]
+root          78  0.0 [scsi_eh_3]
+root          79  0.0 [kworker/R-scsi_]
+root          80  0.0 [scsi_eh_4]
+root          81  0.0 [kworker/R-scsi_]
+root          83  0.0 [scsi_eh_5]
+root          84  0.0 [kworker/R-scsi_]
+root          85  0.0 [scsi_eh_6]
+root          86  0.0 [kworker/R-scsi_]
+root          87  0.0 [scsi_eh_7]
+root          88  0.0 [kworker/R-scsi_]
+root          89  0.0 [scsi_eh_8]
+root          90  0.0 [kworker/R-scsi_]
+root          91  0.0 [scsi_eh_9]
+root          92  0.0 [kworker/R-scsi_]
+root          96  0.0 [kworker/R-mld]
+root          97  0.0 [kworker/1:1H-kblockd]
+root          98  0.0 [kworker/R-ipv6_]
+root         105  0.0 [kworker/R-kstrp]
+root         107  0.0 [kworker/u9:0]
+root         112  0.0 [kworker/R-crypt]
+root         123  0.0 [kworker/R-charg]
+root         150  0.0 [kworker/2:1H-kblockd]
+root         165  0.0 [kworker/3:1H-kblockd]
+root         217  0.0 [kworker/R-raid5]
+root         258  0.0 [jbd2/vda1-8]
+root         259  0.0 [kworker/R-ext4-]
+root         330  0.0 /usr/lib/systemd/systemd-journald
+root         356  0.0 [kworker/R-kmpat]
+root         357  0.0 [kworker/R-kmpat]
+root         382  0.0 /sbin/multipathd -d -s
+root         394  0.0 /usr/lib/systemd/systemd-udevd
+root         496  0.0 [psimon]
+root         757  0.0 [kworker/R-nfit]
+systemd+     776  0.0 /usr/lib/systemd/systemd-resolved
+root         798  0.0 /usr/local/uniagent/bin/uniagent
+message+     799  0.0 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         804  0.0 /usr/sbin/irqbalance
+polkitd      806  0.0 /usr/lib/polkit-1/polkitd --no-debug
+root         813  0.0 /usr/lib/systemd/systemd-logind
+root         818  0.0 /usr/libexec/udisks2/udisksd
+root         840  0.0 /usr/sbin/NetworkManager --no-daemon
+root         845  0.0 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         893  0.0 /usr/sbin/ModemManager
+syslog       896  0.0 /usr/sbin/rsyslogd -n -iNONE
+root         913  0.0 [ksoftirqd/0]
+root         929  0.2 [migration/1]
+root        1072  0.0 [psimon]
+root        1091  0.0 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1092  0.0 /usr/local/uniagentd/bin/uniagentd
+root        1095  0.0 /usr/bin/containerd
+_chrony     1104  0.0 /usr/sbin/chronyd -F 1
+_chrony     1105  0.0 /usr/sbin/chronyd -F 1
+root        1174  0.0 /usr/sbin/cron -f -P
+root        1281  0.0 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1383  0.0 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+root        1388  0.0 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1391  0.0 /sbin/agetty -o -p -- \u --noclear - linux
+root        1669  0.0 /usr/local/hostguard/bin/containerserver
+sra         1694  0.0 /usr/lib/systemd/systemd --user
+sra         1695  0.0 (sd-pam)
+root        1958  0.0 [kworker/R-tls-s]
+sra         2028  0.0 codex -c features.code_mode_host=true app-server --listen unix://
+root        2769  0.0 /bin/sh -c /usr/local/uniagentd/bin/uniagentd
+root        2770  0.0 /bin/sh -c /usr/local/uniagentd/bin/uniagentd
+root        2771  0.0 /usr/local/uniagentd/bin/uniagentd
+root        2772  0.0 /usr/local/uniagentd/bin/uniagentd
+root        2804  0.3 /usr/local/hostguard/bin/ebpfagent --daemon
+sra         2944  0.0 /opt/codex-cli/0.162.1/bin/codex-code-mode-host
+root       17344  0.0 /usr/libexec/upowerd
+sra       329929  0.0 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      363072  0.0 sshd: sra [priv]
+sra       363129  0.0 sshd: sra@notty
+sra       363130  0.0 codex app-server proxy
+root      365021  0.2 ./telescope
+lx        385956  0.0 /usr/lib/systemd/systemd --user
+lx        385957  0.0 (sd-pam)
+lx        386031  0.0 tmux new-session -d -s lab2lx -n enrolld -c /home/lx/lab2 exec taskset -c 2-3 bin/enrolld > data/enrolld.log 2>&1
+lx        386033  0.0 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lx        386041  0.1 tools/node_exporter --web.listen-address=127.0.0.1:9100
+lx        386047  0.2 tools/prometheus --config.file=deploy/prometheus.yml --storage.tsdb.path=/dev/shm/lab2-prom-lx --web.listen-address=127.0.0.1:9090
+root      396434  0.0 [kworker/2:3-cgroup_free]
+lx        398247  0.0 bin/enrolld
+root      401220  0.0 [kworker/3:2-cgroup_release]
+root      405448  0.0 [kworker/1:3-cgroup_release]
+root      406142  0.0 [kworker/u8:1-events_power_efficient]
+root      412471  0.0 [kworker/1:0-events]
+root      413903  0.0 [kworker/2:1-cgroup_release]
+root      414724  0.0 [kworker/u8:4-flush-253:0]
+root      415973  0.0 [kworker/3:1-cgroup_free]
+root      416454  0.0 [kworker/u8:2-flush-253:0]
+root      417955  0.0 [kworker/0:3-events]
+root      419967  0.0 [kworker/0:2-cgroup_release]
+root      421225  0.0 [kworker/u8:0-ext4-rsv-conversion]
+root      421579  0.0 [kworker/3:0-events]
+root      421670  0.0 [kworker/2:0-events]
+root      421695  0.0 [kworker/1:1-events]
+root      421696  0.0 [kworker/1:2-cgroup_free]
+root      421703  0.0 [kworker/0:0-cgroup_release]
+root      426907  0.0 [kworker/3:3-events]
+root      427104  0.0 [kworker/0:1-cgroup_free]
+gyz       427111  0.0 /usr/lib/systemd/systemd --user
+gyz       427112  0.0 (sd-pam)
+root      427254  0.0 sshd: gyz [priv]
+gyz       427304  0.0 sshd: gyz@notty
+gyz       427305  0.0 bash -c cd /home/gyz/ops-lab2-2-task3 && curl -fLsS --connect-timeout 15 --max-time 180 -H "Accept: application/octet-stream" "https://api.github.com/repos/prometheus/prometheus/releases/assets/598357822?task3=20261027" -o tools/prometheus-3.13.4.linux-amd64.tar.gz && file tools/prometheus-3.13.4.linux-amd64.tar.gz; curl -fsS --connect-timeout 10 https://api.github.com/repos/prometheus/node_exporter/releases/tags/v1.12.1 -o /tmp/task3-node-release.json; python3 - <<"PY" import json from pathlib import Path for a in json.loads(Path("/tmp/task3-node-release.json").read_text())["assets"]:  if a["name"] == "node_exporter-1.12.1.linux-amd64.tar.gz": print(a["url"]) PY
+gyz       427306  0.1 curl -fLsS --connect-timeout 15 --max-time 180 -H Accept: application/octet-stream https://api.github.com/repos/prometheus/prometheus/releases/assets/598357822?task3=20261027 -o tools/prometheus-3.13.4.linux-amd64.tar.gz
+root      427710  3.1 sshd: gyz [priv]
+gyz       427758  0.0 sshd: gyz@notty
+gyz       427761  0.0 bash -c cd /home/gyz/ops-lab2-2-task3 && ls -lh tools; ps -eo pid,etime,args | grep curl | grep -v grep; git switch -c task3-write-path; mkdir -p evidence/task3-20261027; { date -Iseconds; uname -a; lscpu -e; free -m; findmnt -T data; lsblk; go version; ps -eo user,pid,pcpu,args; } > evidence/task3-20261027/host-before.txt
+gyz       427779  0.0 ps -eo user,pid,pcpu,args

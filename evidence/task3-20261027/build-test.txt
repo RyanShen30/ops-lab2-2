@@ -1,0 +1,10 @@
+以下转录自本次 SSH 构建命令的标准输出（准备阶段执行）：
+$ make build test
+go build -o bin/enrolld ./cmd/enrolld
+go build -o bin/loadgen ./cmd/loadgen
+go build -o bin/promsteps ./cmd/promsteps
+go test -count=1 ./...
+ok  enroll-lab/cmd/enrolld  0.787s
+ok  enroll-lab/cmd/loadgen  3.162s
+ok  enroll-lab/cmd/promsteps  0.005s
+ok  enroll-lab/internal/metrics  0.004s

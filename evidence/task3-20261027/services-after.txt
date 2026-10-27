@@ -1,0 +1,17 @@
+2026-10-27T18:06:08+08:00
+USER         PID COMMAND
+lx        386041 tools/node_exporter --web.listen-address=127.0.0.1:9100
+lx        386047 tools/prometheus --config.file=deploy/prometheus.yml --storage.tsdb.path=/dev/shm/lab2-prom-lx --web.listen-address=127.0.0.1:9090
+lx        398247 bin/enrolld
+State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+LISTEN 0      10         127.0.0.1:29338      0.0.0.0:*          
+LISTEN 0      10         127.0.0.1:29339      0.0.0.0:*          
+LISTEN 0      128        127.0.0.1:4933       0.0.0.0:*          
+LISTEN 0      4096       127.0.0.1:9090       0.0.0.0:*          
+LISTEN 0      4096       127.0.0.1:9100       0.0.0.0:*          
+LISTEN 0      128        127.0.0.1:17897      0.0.0.0:*          
+LISTEN 0      4096         0.0.0.0:22         0.0.0.0:*          
+LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+LISTEN 0      4096       127.0.0.1:8080       0.0.0.0:*          
+LISTEN 0      4096            [::]:22            [::]:*          
