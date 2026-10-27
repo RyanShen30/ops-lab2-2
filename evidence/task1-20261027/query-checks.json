@@ -1,0 +1,266 @@
+[
+  {
+    "step": "1",
+    "query_name": "server_rps",
+    "query": "sum(rate(http_requests_total{route=\"/api/courses/{id}\"}[25s]))",
+    "time": 1793070805,
+    "recorded_csv_value": "0",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070805,
+              "0"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "1",
+    "query_name": "server_error_rate",
+    "query": "(sum(rate(http_requests_total{route=\"/api/courses/{id}\",code=~\"5..\"}[25s])) or vector(0)) / sum(rate(http_requests_total{route=\"/api/courses/{id}\"}[25s]))",
+    "time": 1793070805,
+    "recorded_csv_value": "NaN",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070805,
+              "NaN"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "1",
+    "query_name": "server_p99_ms",
+    "query": "1000 * histogram_quantile(0.99, sum by (le) (rate(http_request_duration_seconds_bucket{route=\"/api/courses/{id}\"}[25s])))",
+    "time": 1793070805,
+    "recorded_csv_value": "NaN",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070805,
+              "NaN"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "1",
+    "query_name": "server_slo_good",
+    "query": "(sum(rate(http_request_duration_seconds_bucket{route=\"/api/courses/{id}\",code=\"200\",le=\"0.05\"}[25s])) or vector(0)) / sum(rate(http_requests_total{route=\"/api/courses/{id}\"}[25s]))",
+    "time": 1793070805,
+    "recorded_csv_value": "NaN",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070805,
+              "NaN"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "2",
+    "query_name": "server_rps",
+    "query": "sum(rate(http_requests_total{route=\"/api/courses/{id}\"}[25s]))",
+    "time": 1793070835,
+    "recorded_csv_value": "51.2083",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070835,
+              "51.208333333333336"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "2",
+    "query_name": "server_error_rate",
+    "query": "(sum(rate(http_requests_total{route=\"/api/courses/{id}\",code=~\"5..\"}[25s])) or vector(0)) / sum(rate(http_requests_total{route=\"/api/courses/{id}\"}[25s]))",
+    "time": 1793070835,
+    "recorded_csv_value": "0",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070835,
+              "0"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "2",
+    "query_name": "server_p99_ms",
+    "query": "1000 * histogram_quantile(0.99, sum by (le) (rate(http_request_duration_seconds_bucket{route=\"/api/courses/{id}\"}[25s])))",
+    "time": 1793070835,
+    "recorded_csv_value": "19.9",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070835,
+              "19.900000000000002"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "2",
+    "query_name": "server_slo_good",
+    "query": "(sum(rate(http_request_duration_seconds_bucket{route=\"/api/courses/{id}\",code=\"200\",le=\"0.05\"}[25s])) or vector(0)) / sum(rate(http_requests_total{route=\"/api/courses/{id}\"}[25s]))",
+    "time": 1793070835,
+    "recorded_csv_value": "1",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070835,
+              "1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "3",
+    "query_name": "server_rps",
+    "query": "sum(rate(http_requests_total{route=\"/api/courses/{id}\"}[25s]))",
+    "time": 1793070865,
+    "recorded_csv_value": "95.875",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070865,
+              "95.87500000000001"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "3",
+    "query_name": "server_error_rate",
+    "query": "(sum(rate(http_requests_total{route=\"/api/courses/{id}\",code=~\"5..\"}[25s])) or vector(0)) / sum(rate(http_requests_total{route=\"/api/courses/{id}\"}[25s]))",
+    "time": 1793070865,
+    "recorded_csv_value": "0",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070865,
+              "0"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "3",
+    "query_name": "server_p99_ms",
+    "query": "1000 * histogram_quantile(0.99, sum by (le) (rate(http_request_duration_seconds_bucket{route=\"/api/courses/{id}\"}[25s])))",
+    "time": 1793070865,
+    "recorded_csv_value": "19.9",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070865,
+              "19.900000000000002"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "step": "3",
+    "query_name": "server_slo_good",
+    "query": "(sum(rate(http_request_duration_seconds_bucket{route=\"/api/courses/{id}\",code=\"200\",le=\"0.05\"}[25s])) or vector(0)) / sum(rate(http_requests_total{route=\"/api/courses/{id}\"}[25s]))",
+    "time": 1793070865,
+    "recorded_csv_value": "1",
+    "response": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {},
+            "value": [
+              1793070865,
+              "1"
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

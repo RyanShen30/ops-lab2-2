@@ -1,0 +1,19 @@
+{
+  "checks_passed": [
+    "11 expected run files present and nonempty",
+    "3 stages: 0, 50, 100 requests/s",
+    "4 queries each return exactly 1 series in all 3 stages",
+    "nonidle query values finite and match red.csv at its 6 significant digit precision",
+    "no loadgen warnings; all 4451 requests successful and within 50 ms",
+    "request counter delta equals total client request count",
+    "both targets up before and after the experiment"
+  ],
+  "total_sent": 4451,
+  "total_ok": 4451,
+  "metrics_start_count": 1.0,
+  "metrics_end_count": 4452.0,
+  "stage_100_db_query_mean_ms": "10.4843",
+  "stage_100_cpu_ms_per_req": "0.602963",
+  "query_api_checks": 12,
+  "raw_run_files_edited": false
+}

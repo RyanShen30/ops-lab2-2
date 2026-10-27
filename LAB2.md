@@ -4,7 +4,7 @@
 
 第 4.1、4.4、5.1、5.3 节的预测须在对应的测量之前写好，写好后不要修改。预测错误不扣分，与实测不一致之处在分析中讨论。
 
-本次更新完成任务 0 的环境与基线记录，采集日期为 **2026-10-26（Asia/Shanghai，UTC+08:00）**。任务 0 的主机命令、fsync 基准和资源工具原始输出保存在 [`evidence/task0-20261026/`](evidence/task0-20261026/README.md)，各数值的来源如下；后续 HTTP 实验按指导书使用 `scripts/run.sh` 生成 `runs/` 数据。任务 1～4 的实验与预测保留待填写。
+目前已完成任务 0、1，时区均为 Asia/Shanghai（UTC+08:00）。任务 0 于 **2026-10-26** 采集，主机命令、fsync 基准和资源工具原始输出见 [`evidence/task0-20261026/`](evidence/task0-20261026/README.md)。任务 1 于 **2026-10-27** 采集，HTTP 实验由 `scripts/run.sh` 生成的原始数据见 [`runs/t1-light/`](runs/t1-light/meta.txt)，启动、抓取状态与查询核验见 [`evidence/task1-20261027/`](evidence/task1-20261027/README.md)。任务 2～4 保留待填写。
 
 ## 1. 基本信息
 
@@ -18,7 +18,7 @@
 | 数据目录所在的盘 | 华为云 EVS 系统盘，通用型 SSD，40 GiB；仓库 `data/` 位于 `/dev/vda1`，文件系统 `ext4`，挂载于 `/`；整盘设备为 `vda`，数据目录位于块设备，非 tmpfs。`ROTA=1` 是虚拟设备上报值，磁盘类型按控制台信息记录 |
 | 操作系统与内核 | `Ubuntu 24.04.5 LTS`；内核 `6.8.0-147-generic` |
 | Go、Prometheus、node_exporter | `go version go1.26.9 linux/amd64`；Prometheus `3.13.4`；node_exporter `1.12.1`。`scripts/get-tools.sh` 已成功完成固定 SHA-256 校验并解压 |
-| 分核 | 后续 enrolld 使用 CPU `2-3`；loadgen、Prometheus、node_exporter 使用 CPU `0-1`。按来宾可见 CORE 分开服务与压测/监控；本任务 fsync 基准按指导书直接执行，未对基准额外绑核 |
+| 分核 | enrolld 使用 CPU `2-3`；loadgen、Prometheus、node_exporter 使用 CPU `0-1`，任务 1 已按此执行。按来宾可见 CORE 分开服务与压测/监控；任务 0 的 fsync 基准按指导书直接执行，未对基准额外绑核 |
 
 云厂商、实例规格、配置内存、区域及磁盘类型来源于用户提供的华为云控制台截图，补录日期为 2026-10-27，字段摘录见 [`cloud-specification.md`](evidence/task0-20261026/cloud-specification.md)。来宾系统环境与基线数值来源于 2026-10-26 采集的 [`host.txt`](evidence/task0-20261026/host.txt)。`make build test` 已通过，三个二进制生成成功，四个 Go 包测试全部通过，原始输出见 [`build-test.log`](evidence/task0-20261026/build-test.log)；下载与校验过程见 [`get-tools.log`](evidence/task0-20261026/get-tools.log)。sysstat `12.6.1-2`、procps `2:4.0.4-4ubuntu3.3` 已预装，本次无需安装软件包。
 
@@ -101,22 +101,50 @@ fsync 耗时（毫秒）：mean 1.227  p50 1.160  p90 1.414  p99 2.371  max 4.82
 
 ## 3. 任务 1：指标流水线
 
-两个抓取目标的状态（`curl -s 127.0.0.1:9090/api/v1/targets` 中两处 `"health"` 的值）：<填写>
+采集时间：**2026-10-27 11:12:55～11:14:25（UTC+08:00）**，三个阶段各 30 秒，到达过程为 Poisson。运行命令：
+
+```bash
+GEN_CPUS=0-1 scripts/run.sh t1-light -url http://127.0.0.1:8080/api/courses/1 -rates 0,50,100
+```
+
+enrolld 绑定 CPU `2-3`，loadgen、Prometheus、node_exporter 绑定 CPU `0-1`；服务启动日志显示 `GOMAXPROCS=2`。`/config` 确认为默认参数 `work=200000`、`pool=4`、`db_ms=10`、`sync=each`。Prometheus 每 1 秒抓取 enrolld、每 5 秒抓取 node_exporter，TSDB 目录为 `/dev/shm/lab2-prom`；三个服务均只监听 `127.0.0.1`。启动命令及原始证据见 [`任务 1 执行记录`](evidence/task1-20261027/README.md)，实验参数见 [`meta.txt`](runs/t1-light/meta.txt)。
+
+两个抓取目标的状态：实验前后 `enrolld`、`node` 均为 **up**。API 原始响应见 [`targets-before.json`](evidence/task1-20261027/targets-before.json)、[`targets-after.json`](evidence/task1-20261027/targets-after.json)，两处 `"health"` 的值为：
+
+```text
+"health":"up"
+"health":"up"
+```
+
+首次 `GET /api/courses/1` 正常返回课程 JSON（[`course-1.json`](evidence/task1-20261027/course-1.json)）。紧接着抓取的原始直方图中，`le="0.01"` 为 0，`le="0.02"` 为 1，`le="+Inf"` 与 `_count` 均为 1，`_sum` 为 `0.01062283` 秒，表示这一次成功请求耗时位于 10～20 ms。桶是累计计数，不能将各桶次数相加。完整输出见 [`histogram-before.txt`](evidence/task1-20261027/histogram-before.txt)。
 
 本组编写的四条查询（与 `deploy/queries-red.txt` 一致）：
 
 ```text
-server_rps          <填写>
-server_error_rate   <填写>
-server_p99_ms       <填写>
-server_slo_good     <填写>
+server_rps          sum(rate(http_requests_total{route="${route}"}[${window}]))
+server_error_rate   (sum(rate(http_requests_total{route="${route}",code=~"5.."}[${window}])) or vector(0)) / sum(rate(http_requests_total{route="${route}"}[${window}]))
+server_p99_ms       1000 * histogram_quantile(0.99, sum by (le) (rate(http_request_duration_seconds_bucket{route="${route}"}[${window}])))
+server_slo_good     (sum(rate(http_request_duration_seconds_bucket{route="${route}",code="200",le="${slo}"}[${window}])) or vector(0)) / sum(rate(http_requests_total{route="${route}"}[${window}]))
 ```
+
+四条查询均限定当前接口；错误率在没有 5xx 序列时用 `or vector(0)` 补零；p99 先按 `le` 合并各状态码的桶，再取分位数并转换为毫秒；SLI 的分子只计入成功且耗时不超过阈值的请求。本次 `${route}=/api/courses/{id}`、`${slo}=0.05`、`${window}=25s`。
 
 `runs/t1-light` 的数据（`scripts/table.sh runs/t1-light ok_rps mean_ms p99_ms server_rps server_mean_ms server_p99_ms cpu_ms_per_req db_query_mean_ms`）：
 
-<粘贴表格>
+| step | target_rps | ok_rps | mean_ms | p99_ms | server_rps | server_mean_ms | server_p99_ms | cpu_ms_per_req | db_query_mean_ms |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | 0 | 0.0 | - | - | 0 | NaN | NaN | +Inf | NaN |
+| 2 | 50 | 50.5 | 11.58 | 12.57 | 51.2083 | 10.852 | 19.9 | 0.61067 | 10.4391 |
+| 3 | 100 | 97.8 | 11.65 | 13.86 | 95.875 | 10.9344 | 19.9 | 0.602963 | 10.4843 |
+| all | - | 74.2 | 11.62 | 12.86 | - | - | - | - | - |
 
-从这次实验读出：每次查询实际占用连接 <填写> ms（`db_query_mean_ms`）；每个请求消耗的 CPU <填写> ms（`cpu_ms_per_req`，取 100 请求/秒的阶段）。
+表格由脚本直接生成，副本见 [`results-table.md`](evidence/task1-20261027/results-table.md)。原始数据见 [`steps.csv`](runs/t1-light/steps.csv)、[`red.csv`](runs/t1-light/red.csv)、[`use.csv`](runs/t1-light/use.csv)，完整实验终端输出见 [`run-console.log`](evidence/task1-20261027/run-console.log)。空载阶段没有请求，按请求数作分母的指标会产生 `NaN` 或 `+Inf`，不用于推算每请求开销。`all` 是两个有负载阶段的客户端合计，Prometheus 未对该行执行合并查询。
+
+从 **100 请求/秒的第 3 阶段**读出：每次查询实际占用连接 **10.4843 ms**（`db_query_mean_ms`）；每个请求消耗的 CPU **0.602963 ms**（`cpu_ms_per_req`）。实际连接占用包含定时器唤醒和调度开销，因此略大于设置的 `db_ms=10`，后续预测应引用实测值。
+
+检查点：两个有负载阶段的四条查询均得到有限数值，`server_error_rate=0`、`server_slo_good=1`。客户端共发送并成功完成 **4451** 个请求，HTTP 错误、超时、网络错误与丢弃均为 0，50 ms SLI 为 1；`warn` 为空，发送滞后 p99 为 1.05 / 1.06 ms，loadgen CPU 为 1% / 2%。实验前后服务端成功请求计数由 1 增至 4452，增量与客户端请求数相符。检查表见 [`checkpoint-table.md`](evidence/task1-20261027/checkpoint-table.md)；按各阶段结束时刻重新调用 Prometheus API，12 次查询均只返回一条序列，并与 `red.csv` 的六位有效数字一致，响应与核验结果分别见 [`query-checks.json`](evidence/task1-20261027/query-checks.json)、[`validation.json`](evidence/task1-20261027/validation.json)。
+
+目标到达率是 Poisson 过程的参数，实际请求数会波动；客户端统计完整阶段，Prometheus 去掉每阶段开头 5 秒，因而两者的 RPS 略有不同。服务端 p99 的 19.9 ms 来自 10～20 ms 桶内的线性插值，精度受桶宽限制；它可以高于客户端按实际成功请求耗时排序得到的 p99（12.57 / 13.86 ms）。
 
 ## 4. 任务 2：读路径
 
@@ -235,7 +263,7 @@ W2 的到达率：<填写>
 
 | GitHub 用户名 | 负责的部分 |
 |---|---|
-| RyanShen30 | 任务 0：环境核验、构建测试与工具下载、fsync 基线、资源观测、报告及原始证据整理 |
+| RyanShen30 | 任务 0：环境核验、构建测试与工具下载、fsync 基线、资源观测；任务 1：监控启动与绑核、四条 PromQL、轻载实验、报告及原始证据整理 |
 | Liuxiang400 | 后续任务分工待确认 |
 | Shundi-Wu | 后续任务分工待确认 |
 | ashkirakira | 后续任务分工待确认 |
