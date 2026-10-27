@@ -161,37 +161,58 @@ R1 的到达率（`scripts/rates.sh 382` 的输出，382 为 381.5 向上取整�
 
 ### 4.2 R1：`-pool 4`
 
-`scripts/table.sh runs/r1-<…> ok_rps error_rate p99_ms server_p99_ms server_mean_ms inflight_avg cpu_ms_per_req pool_in_use_avg pool_wait_p99_ms sched_wait_p99_ms svc_cpu_busy procs_running_avg`：
+`scripts/table.sh runs/r1-pool4 ok_rps error_rate p99_ms server_p99_ms server_mean_ms inflight_avg cpu_ms_per_req pool_in_use_avg pool_wait_p99_ms sched_wait_p99_ms svc_cpu_busy procs_running_avg`：
 
-<粘贴表格>
+| step | target_rps | ok_rps | error_rate | p99_ms | server_p99_ms | server_mean_ms | inflight_avg | cpu_ms_per_req | pool_in_use_avg | pool_wait_p99_ms | sched_wait_p99_ms | svc_cpu_busy | procs_running_avg |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 76 | 78.2 | 0.0000 | 12.68 | 19.9 | 10.913 | 0.64 | 0.595185 | 0.6 | 0.998385 | 0.477238 | 0.0245 | 1.8 |
+| 2 | 153 | 151.7 | 0.0000 | 17.81 | 19.9299 | 11.1228 | 1.56 | 0.560588 | 1.48 | 7.3537 | 0.475798 | 0.0445 | 1.2 |
+| 3 | 229 | 228.9 | 0.0000 | 22.09 | 31.8067 | 11.8161 | 2.2 | 0.547113 | 2.12 | 12.6696 | 0.47578 | 0.06125 | 2.6 |
+| 4 | 267 | 272.0 | 0.0000 | 30.36 | 46.4885 | 13.4296 | 3.52 | 0.539737 | 2.76 | 19.599 | 0.474204 | 0.07425 | 1.6 |
+| 5 | 306 | 309.5 | 0.0000 | 43.56 | 48.663 | 15.7854 | 4.88 | 0.532248 | 3.04 | 43.8011 | 0.474527 | 0.0765 | 1.2 |
+| 6 | 344 | 340.7 | 0.0000 | 53.32 | 72.0578 | 19.7969 | 6.96 | 0.533438 | 3.52 | 48.6851 | 0.472476 | 0.08925 | 1.8 |
+| 7 | 382 | 384.6 | 0.0000 | 557.23 | 902.645 | 248.324 | 96.4 | 0.517598 | 3.96 | 887.463 | 0.470076 | 0.09725 | 2 |
+| 8 | 420 | 384.5 | 0.0779 | 1011.77 | 1980.68 | 995.354 | 412.64 | 0.506449 | 3.84 | 1892.84 | 0.470405 | 0.10325 | 1.2 |
+| 9 | 458 | 381.3 | 0.1667 | 1012.14 | 1987.05 | 1002.36 | 458.84 | 0.510228 | 3.96 | 1946.44 | 0.472704 | 0.11625 | 2.4 |
+| all | - | 281.3 | 0.0412 | 1011.24 | - | - | - | - | - | - | - | - | - |
 
-最大吞吐量 <填写> 请求/秒，出现在第 <填写> 阶段；客户端 p99 首次超过 50 ms 是在第 <填写> 阶段（<填写> 请求/秒）。
+最大吞吐量 **384.6** 请求/秒，出现在第 **7** 阶段（目标 382 请求/秒）；客户端 p99 首次超过 50 ms 是在第 **6** 阶段（**344** 请求/秒，p99=53.32 ms）。
+
+第 7 阶段起 `pool_in_use_avg` 达到 3.96/4，`pool_wait_p99_ms` 从第 6 阶段的 48.69 ms 跳到 887.46 ms，客户端 mean 从 19.81 ms 升到 240.31 ms；第 8、9 阶段目标 420、458 请求/秒时，成功吞吐停在 384.5、381.3 请求/秒，客户端错误率 7.79%、16.67%，服务端 5xx 比例 8.30%、16.85%，即连接池饱和后多出的请求等连接超时并以 503 返回。实测吞吐平台 381～385 请求/秒与预测的 381.5 请求/秒相差不到 1%。
+
+CPU 在所有阶段都远未饱和：第 7 阶段 `svc_cpu_busy` 仅 0.097，`sched_wait_p99_ms` 稳定在 0.47～0.48 ms，`procs_running_avg` 在 1.2～2.6 之间波动，没有随负载持续上升。
 
 ### 4.3 CPU 消耗在何处
 
-在约 0.8 倍上限的负载下采集 20 秒 CPU 剖析，`go tool pprof -top` 的前 10 行（同时保存在 `runs/<填写>/pprof-top.txt`）：
+在约 0.8 倍上限的负载下采集 20 秒 CPU 剖析，`go tool pprof -top` 的前 10 行（同时保存在 `runs/r1-pool4/pprof-top.txt`）：
 
 ```text
-<粘贴>
+      flat  flat%   sum%        cum   cum%
+     2.41s 82.82% 82.82%      2.41s 82.82%  main.spin (inline)
+     0.14s  4.81% 87.63%      0.14s  4.81%  internal/runtime/syscall/linux.Syscall6
+     0.07s  2.41% 90.03%      0.07s  2.41%  runtime.futex
+     0.03s  1.03% 91.07%      0.03s  1.03%  runtime.usleep
+     0.02s  0.69% 91.75%      0.02s  0.69%  internal/runtime/atomic.(*Uint32).CompareAndSwap (inline)
+     0.02s  0.69% 92.44%      0.02s  0.69%  runtime.memclrNoHeapPointers
+     0.02s  0.69% 93.13%      0.02s  0.69%  runtime.nextFreeFast (inline)
+     0.01s  0.34% 93.47%      2.45s 84.19%  main.(*server).handleCourse
+     0.01s  0.34% 93.81%      0.09s  3.09%  net/http.(*conn).readRequest
+     0.01s  0.34% 94.16%      0.02s  0.69%  runtime.newobject
 ```
 
-`main.spin` 占 <填写>%；按本次的吞吐量和 enrolld 消耗的 CPU 计算，每个请求 <填写> ms，其中 spin 约 <填写> ms，其余 <填写> ms 消耗在：<填写>
+`main.spin` 占 **82.82%**；按本次的吞吐量和 enrolld 消耗的 CPU 计算，每个请求 **0.532 ms**（R1 第 5 阶段、306 请求/秒的 `cpu_ms_per_req=0.532248`），其中 spin 约 **0.441 ms**，其余约 **0.091 ms** 消耗在 HTTP 请求解析与响应写出、读写 socket 的系统调用，以及 Go 运行时的调度、内存分配与 GC 上。剖析窗口共 20 秒、采样 2.91 s，相当于 0.146 个核，与同一到达率下 R1 第 5 阶段的进程 CPU 0.166 个核（`cpu_cores`）同一量级。
 
 ### 4.4 R2：调大连接池（预测在 R2 之前写）
 
 | 项 | 值与算法 |
 |---|---|
-| 每个请求占用的 CPU（取 R1 哪一阶段的 `cpu_ms_per_req`，选取理由） | <填写> |
-| 推算的 CPU 上限 C | <填写> |
-| R2 的池大小 P2 = ceil(2 × C × 每次查询的秒数) | <填写> |
-| R2 的到达率（`scripts/rates.sh C 0.3 0.6 0.8 0.9 1.0 1.1 1.25 1.5`） | <填写> |
-| 预测：R2 中先达到上限的是 | <填写> |
+| 每个请求占用的 CPU（取 R1 哪一阶段的 `cpu_ms_per_req`，选取理由） | 0.533438 ms（R1 第 6 阶段、344 请求/秒）。这是尚未达到连接池上限的最高阶段：第 7 阶段池占用已到 3.96/4、排队时间飙升，不适合代表饱和前的每请求开销；第 6 阶段池平均占用 3.52/4、无错误，且负载最高 |
+| 推算的 CPU 上限 C | 2 ÷ 0.000533438 = **3749.2** 请求/秒 |
+| R2 的池大小 P2 = ceil(2 × C × 每次查询的秒数) | ceil(2 × 3749.2 × 0.0104739) = ceil(78.53) = **79** |
+| R2 的到达率（`scripts/rates.sh 3749 0.3 0.6 0.8 0.9 1.0 1.1 1.25 1.5`） | 1125,2249,2999,3374,3749,4124,4686,5624 |
+| 预测：R2 中先达到上限的是 | **CPU**。79 个连接按每次查询 10.4739 ms 计算可支撑约 7543 请求/秒，约为 C 的 2.0 倍；预计吞吐在 C≈3749 请求/秒附近达到平台，随后 `svc_cpu_busy` 接近 1、`sched_wait_p99_ms` 明显上升 |
 
-`scripts/table.sh runs/r2-<…> ok_rps error_rate p99_ms server_p99_ms inflight_avg cpu_cores cpu_ms_per_req cpu_wait_threads sched_wait_p99_ms pool_in_use_avg svc_cpu_busy procs_running_avg cpu_psi_some`：
 
-<粘贴表格>
-
-最大吞吐量 <填写> 请求/秒；与预测的 C 相差：<填写>
 
 ## 5. 任务 3：写路径
 
