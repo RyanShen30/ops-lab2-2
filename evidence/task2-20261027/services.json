@@ -1,0 +1,32 @@
+{
+  "enrolld": [
+    {
+      "pid": 386032,
+      "cmdline": "bin/enrolld",
+      "affinity": "pid 386032's current affinity list: 2,3",
+      "thread_affinities": [
+        "2,3"
+      ]
+    }
+  ],
+  "node_exporter": [
+    {
+      "pid": 386041,
+      "cmdline": "tools/node_exporter --web.listen-address=127.0.0.1:9100",
+      "affinity": "pid 386041's current affinity list: 0,1",
+      "thread_affinities": [
+        "0,1"
+      ]
+    }
+  ],
+  "prometheus": [
+    {
+      "pid": 386047,
+      "cmdline": "tools/prometheus --config.file=deploy/prometheus.yml --storage.tsdb.path=/dev/shm/lab2-prom-lx --web.listen-address=127.0.0.1:9090",
+      "affinity": "pid 386047's current affinity list: 0,1",
+      "thread_affinities": [
+        "0,1"
+      ]
+    }
+  ]
+}

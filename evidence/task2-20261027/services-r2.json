@@ -1,0 +1,7 @@
+{
+  "enrolld": {
+    "pid": 394257,
+    "cmdline": "bin/enrolld -pool 79",
+    "affinity": "pid 394257's current affinity list: 2,3"
+  }
+}

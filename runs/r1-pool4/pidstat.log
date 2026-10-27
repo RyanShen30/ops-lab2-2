@@ -1,0 +1,817 @@
+Linux 6.8.0-147-generic (ecs-59c8) 	2026-10-27 	_x86_64_	(4 CPU)
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:14:56     1002    386032    4.00    0.00    0.00    0.00    4.00     3      7.00      0.00 1266300   12512   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:14:57     1002    386032    3.00    1.00    0.00    0.00    4.00     3     10.00      0.00 1266300   12640   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:14:58     1002    386032    3.00    1.00    0.00    0.00    4.00     3      5.00      0.00 1266300   12768   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:14:59     1002    386032    4.00    1.00    0.00    0.00    5.00     3     36.00      0.00 1266300   12768   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:00     1002    386032    3.00    1.00    0.00    0.00    4.00     3     25.00      0.00 1266300   12896   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:01     1002    386032    4.00    0.00    0.00    0.00    4.00     3      2.00      0.00 1266300   12896   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:02     1002    386032    4.00    1.00    0.00    0.00    5.00     3      2.00      0.00 1266300   12896   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:03     1002    386032    4.00    1.00    0.00    0.00    5.00     3      3.00      0.00 1266300   12896   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:04     1002    386032    4.00    1.00    0.00    0.00    5.00     3      2.00      0.00 1266300   12896   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:05     1002    386032    3.00    1.00    0.00    0.00    4.00     3      3.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:06     1002    386032    4.00    1.00    0.00    0.00    5.00     3      2.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:07     1002    386032    4.00    2.00    0.00    0.00    6.00     3      0.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:08     1002    386032    3.00    0.00    0.00    0.00    3.00     3      0.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:09     1002    386032    4.00    1.00    0.00    0.00    5.00     3      1.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:10     1002    386032    5.00    1.00    0.00    0.00    6.00     3      0.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:11     1002    386032    3.00    0.00    0.00    0.00    3.00     3      2.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:12     1002    386032    4.00    1.00    0.00    0.00    5.00     3      0.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:13     1002    386032    4.00    1.00    0.00    0.00    5.00     3      0.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:14     1002    386032    4.00    1.00    0.00    0.00    5.00     3      1.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:15     1002    386032    4.00    1.00    0.00    0.00    5.00     3      0.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:16     1002    386032    4.00    0.00    0.00    0.00    4.00     3      0.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:17     1002    386032    5.00    1.00    0.00    0.00    6.00     3      0.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:18     1002    386032    4.00    0.00    0.00    0.00    4.00     3      3.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:19     1002    386032    4.00    1.00    0.00    0.00    5.00     3      0.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:20     1002    386032    4.00    1.00    0.00    0.00    5.00     3      2.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:21     1002    386032    5.00    1.00    0.00    0.00    6.00     3      2.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:22     1002    386032    3.00    1.00    0.00    0.00    4.00     3      1.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:23     1002    386032    3.00    1.00    0.00    0.00    4.00     3      1.00      0.00 1266300   12764   0.16      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:24     1002    386032    4.00    1.00    0.00    0.00    5.00     3     16.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:25     1002    386032    4.00    0.00    0.00    0.00    4.00     3     14.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:26     1002    386032    7.00    2.00    0.00    0.00    9.00     3     24.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:27     1002    386032    6.00    1.00    0.00    0.00    7.00     3      1.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:28     1002    386032    7.00    2.00    0.00    0.00    9.00     3      0.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:29     1002    386032    6.00    2.00    0.00    0.00    8.00     3      0.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:30     1002    386032    6.00    1.00    0.00    0.00    7.00     3      0.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:31     1002    386032    8.00    1.00    0.00    0.00    9.00     3      0.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:32     1002    386032    5.00    2.00    0.00    0.00    7.00     3      0.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:33     1002    386032    8.00    2.00    0.00    0.00   10.00     3      1.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:34     1002    386032    7.00    1.00    0.00    0.00    8.00     3      0.00      0.00 1266300   12892   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:35     1002    386032    6.00    2.00    0.00    0.00    8.00     3     24.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:36     1002    386032    8.00    1.00    0.00    0.00    9.00     3      8.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:37     1002    386032    6.00    1.00    0.00    0.00    7.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:38     1002    386032    6.00    2.00    0.00    0.00    8.00     3      4.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:39     1002    386032    7.00    2.00    0.00    0.00    9.00     3      2.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:40     1002    386032    6.00    1.00    0.00    0.00    7.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:41     1002    386032    7.00    2.00    0.00    0.00    9.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:42     1002    386032    7.00    1.00    0.00    0.00    8.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:43     1002    386032    8.00    1.00    0.00    0.00    9.00     3      2.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:44     1002    386032    8.00    1.00    0.00    0.00    9.00     3     12.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:45     1002    386032    7.00    1.00    0.00    0.00    8.00     3     20.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:46     1002    386032    8.00    2.00    0.00    0.00   10.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:47     1002    386032    8.00    0.00    0.00    0.00    8.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:48     1002    386032    7.00    2.00    0.00    0.00    9.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:49     1002    386032    8.00    1.00    0.00    0.00    9.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:50     1002    386032    8.00    1.00    0.00    0.00    9.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:51     1002    386032    8.00    1.00    0.00    0.00    9.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:52     1002    386032    8.00    2.00    0.00    0.00   10.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:53     1002    386032    7.00    1.00    0.00    0.00    8.00     3     27.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:54     1002    386032    8.00    1.00    0.00    0.00    9.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:55     1002    386032    7.00    1.00    0.00    0.00    8.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:56     1002    386032   12.00    2.00    0.00    0.00   14.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:57     1002    386032   12.00    2.00    0.00    0.00   14.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:58     1002    386032   10.00    1.00    0.00    0.00   11.00     3      2.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:15:59     1002    386032   10.00    2.00    0.00    0.00   12.00     3      1.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:00     1002    386032   10.00    3.00    0.00    0.00   13.00     3     17.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:01     1002    386032   10.00    1.00    0.00    0.00   11.00     3      0.00      0.00 1266300   13020   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:02     1002    386032   10.00    1.00    0.00    0.00   11.00     3      0.00      0.00 1266300   12888   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:03     1002    386032   10.00    2.00    0.00    0.00   12.00     3      1.00      0.00 1266300   12888   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:04     1002    386032   12.00    1.00    0.00    0.00   13.00     3      0.00      0.00 1266300   12888   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:05     1002    386032   12.00    2.00    0.00    0.00   14.00     3      3.00      0.00 1266300   12888   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:06     1002    386032   11.00    1.00    0.00    0.00   12.00     3     14.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:07     1002    386032   11.00    2.00    0.00    0.00   13.00     3     20.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:08     1002    386032   10.00    2.00    0.00    0.00   12.00     3      0.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:09     1002    386032   11.00    2.00    0.00    0.00   13.00     3      0.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:10     1002    386032   11.00    1.00    0.00    0.00   12.00     3      0.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:11     1002    386032   10.00    2.00    0.00    0.00   12.00     3      0.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:12     1002    386032   11.00    1.00    0.00    0.00   12.00     3      0.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:13     1002    386032   11.00    2.00    0.00    0.00   13.00     3      0.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:14     1002    386032   10.00    2.00    0.00    0.00   12.00     3      0.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:15     1002    386032   10.00    2.00    0.00    0.00   12.00     3      0.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:16     1002    386032   12.00    1.00    0.00    0.00   13.00     3      2.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:17     1002    386032   10.00    2.00    0.00    0.00   12.00     3      0.00      0.00 1266300   13016   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:18     1002    386032   10.00    2.00    0.00    0.00   12.00     3     41.00      0.00 1266300   13144   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:19     1002    386032   12.00    1.00    0.00    0.00   13.00     3     50.00      0.00 1266300   13272   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:20     1002    386032   11.00    2.00    0.00    0.00   13.00     3     38.00      0.00 1266300   13528   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:21     1002    386032   12.00    1.00    0.00    0.00   13.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:22     1002    386032   11.00    2.00    0.00    0.00   13.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:23     1002    386032   11.00    1.00    0.00    0.00   12.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:24     1002    386032   12.00    2.00    0.00    0.00   14.00     3      2.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:25     1002    386032   12.00    2.00    0.00    0.00   14.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:26     1002    386032   12.00    2.00    0.00    0.00   14.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:27     1002    386032   12.00    1.00    0.00    0.00   13.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:28     1002    386032   12.00    2.00    0.00    0.00   14.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:29     1002    386032   13.00    1.00    0.00    0.00   14.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:30     1002    386032   13.00    1.00    0.00    0.00   14.00     3      1.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:31     1002    386032   13.00    2.00    0.00    0.00   15.00     3      2.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:32     1002    386032   13.00    3.00    0.00    0.00   16.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:33     1002    386032   13.00    1.00    0.00    0.00   14.00     3      0.00      0.00 1266300   13100   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:34     1002    386032   12.00    3.00    0.00    0.00   15.00     3     18.00      0.00 1266300   13228   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:35     1002    386032   13.00    2.00    0.00    0.00   15.00     3     76.00      0.00 1266300   13356   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:36     1002    386032   12.87    1.98    0.00    0.00   14.85     3     27.72      0.00 1266300   13612   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:37     1002    386032   13.00    3.00    0.00    0.00   16.00     3      0.00      0.00 1266300   13440   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:38     1002    386032   12.00    2.00    0.00    0.00   14.00     3      0.00      0.00 1266300   13440   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:39     1002    386032   13.00    1.00    0.00    0.00   14.00     3      0.00      0.00 1266300   13440   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:40     1002    386032   12.00    2.00    0.00    0.00   14.00     3      3.00      0.00 1266556   13440   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:41     1002    386032   14.00    2.00    0.00    0.00   16.00     3     74.00      0.00 1266556   13568   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:42     1002    386032   15.00    1.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:43     1002    386032   13.00    2.00    0.00    0.00   15.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:44     1002    386032   12.00    2.00    0.00    0.00   14.00     3      2.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:45     1002    386032   14.00    2.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:46     1002    386032   13.00    1.00    0.00    0.00   14.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:47     1002    386032   14.00    3.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:48     1002    386032   13.00    2.00    0.00    0.00   15.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:49     1002    386032   13.00    2.00    0.00    0.00   15.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:50     1002    386032   12.00    2.00    0.00    0.00   14.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:51     1002    386032   11.00    2.00    0.00    0.00   13.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:52     1002    386032   11.00    2.00    0.00    0.00   13.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:53     1002    386032   13.00    3.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:54     1002    386032   13.00    2.00    0.00    0.00   15.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:55     1002    386032   11.00    3.00    0.00    0.00   14.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:56     1002    386032   13.00    3.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:57     1002    386032   14.00    3.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:58     1002    386032   12.00    3.00    0.00    0.00   15.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:16:59     1002    386032   15.00    2.00    0.00    0.00   17.00     3      1.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:00     1002    386032   14.00    2.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:01     1002    386032   14.00    3.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:02     1002    386032   13.00    2.00    0.00    0.00   15.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:03     1002    386032   16.00    3.00    0.00    0.00   19.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:04     1002    386032   15.00    3.00    0.00    0.00   18.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:05     1002    386032   14.00    2.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:06     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:07     1002    386032   15.00    2.00    0.00    0.00   17.00     3      2.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:08     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:09     1002    386032   15.00    1.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:10     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:11     1002    386032   14.00    1.00    0.00    0.00   15.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:12     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:13     1002    386032   15.00    2.00    0.00    0.00   17.00     3      1.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:14     1002    386032   14.00    2.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:15     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:16     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:17     1002    386032   14.00    2.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:18     1002    386032   14.00    1.00    0.00    0.00   15.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:19     1002    386032   14.00    3.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:20     1002    386032   13.00    3.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:21     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:22     1002    386032   13.00    2.00    0.00    0.00   15.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:23     1002    386032   16.00    2.00    0.00    0.00   18.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:24     1002    386032   14.00    2.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:25     1002    386032   14.00    2.00    0.00    0.00   16.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:26     1002    386032   16.00    3.00    0.00    0.00   19.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:27     1002    386032   16.00    1.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:28     1002    386032   14.00    3.00    0.00    0.00   17.00     3      1.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:29     1002    386032   16.00    2.00    0.00    0.00   18.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:30     1002    386032   15.00    3.00    0.00    0.00   18.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:31     1002    386032   17.00    2.00    0.00    0.00   19.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:32     1002    386032   15.00    2.00    0.00    0.00   17.00     3      2.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:33     1002    386032   18.00    3.00    0.00    0.00   21.00     3      0.00      0.00 1266556   13264   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:34     1002    386032   15.00    2.00    0.00    0.00   17.00     3     42.00      0.00 1266556   13392   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:35     1002    386032   15.00    3.00    0.00    0.00   18.00     3     55.00      0.00 1266556   13648   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:36     1002    386032   17.00    2.00    0.00    0.00   19.00     3      0.00      0.00 1266556   13348   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:37     1002    386032   15.00    1.00    0.00    0.00   16.00     3      2.00      0.00 1266556   13348   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:38     1002    386032   15.00    3.00    0.00    0.00   18.00     3     49.00      0.00 1266556   13348   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:39     1002    386032   16.00    3.00    0.00    0.00   19.00     3     30.00      0.00 1266556   13604   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:40     1002    386032   16.00    3.00    0.00    0.00   19.00     3      0.00      0.00 1266556   13448   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:41     1002    386032   17.00    1.00    0.00    0.00   18.00     3      0.00      0.00 1266556   13448   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:42     1002    386032   16.00    3.00    0.00    0.00   19.00     3     29.00      0.00 1266556   13448   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:43     1002    386032   16.00    3.00    0.00    0.00   19.00     3     36.00      0.00 1266556   13388   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:44     1002    386032   15.00    3.00    0.00    0.00   18.00     3      0.00      0.00 1266556   13388   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:45     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13388   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:46     1002    386032   17.00    2.00    0.00    0.00   19.00     3     22.00      0.00 1266556   13388   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:47     1002    386032   16.00    3.00    0.00    0.00   19.00     3     42.00      0.00 1266556   13516   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:48     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13384   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:49     1002    386032   14.00    3.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13384   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:50     1002    386032   16.00    2.00    0.00    0.00   18.00     3     34.00      0.00 1266556   13512   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:51     1002    386032   16.00    3.00    0.00    0.00   19.00     3     30.00      0.00 1266556   13512   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:52     1002    386032   16.00    3.00    0.00    0.00   19.00     3      0.00      0.00 1266556   13328   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:53     1002    386032   17.00    2.00    0.00    0.00   19.00     3      0.00      0.00 1266556   13328   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:54     1002    386032   16.00    2.00    0.00    0.00   18.00     3      0.00      0.00 1266556   13328   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:55     1002    386032   15.00    2.00    0.00    0.00   17.00     3      0.00      0.00 1266556   13328   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:56     1002    386032   17.00    2.00    0.00    0.00   19.00     3      0.00      0.00 1266556   13328   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:57     1002    386032   18.00    3.00    0.00    0.00   21.00     3      0.00      0.00 1266556   13328   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:58     1002    386032   18.00    1.00    0.00    0.00   19.00     3      1.00      0.00 1266556   13328   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:17:59     1002    386032   17.00    2.00    0.00    0.00   19.00     3      0.00      0.00 1266556   13328   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:00     1002    386032   16.00    2.00    0.00    0.00   18.00     3      0.00      0.00 1266556   13328   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:01     1002    386032   19.00    3.00    0.00    0.00   22.00     3     46.00      0.00 1266556   13456   0.17      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:02     1002    386032   17.00    3.00    0.00    0.00   20.00     3     22.00      0.00 1266556   13712   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:03     1002    386032   16.00    2.00    0.00    0.00   18.00     3      0.00      0.00 1266556   13712   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:04     1002    386032   17.00    3.00    0.00    0.00   20.00     3     61.00      0.00 1266556   13840   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:05     1002    386032   18.00    3.00    0.00    0.00   21.00     3     75.00      0.00 1266556   14224   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:06     1002    386032   17.00    2.00    0.00    0.00   19.00     3      2.00      0.00 1266556   14224   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:07     1002    386032   16.00    3.00    0.00    0.00   19.00     3     35.00      0.00 1266556   14224   0.18      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:08     1002    386032   18.00    3.00    0.00    0.00   21.00     3     97.00      0.00 1266556   14608   0.19      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:09     1002    386032   16.00    4.00    0.00    0.00   20.00     3      8.00      0.00 1266556   14608   0.19      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:10     1002    386032   16.00    4.00    0.00    0.00   20.00     3    197.00      0.00 1266556   15504   0.20      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:11     1002    386032   16.00    3.00    0.00    0.00   19.00     3    180.00      0.00 1266812   16144   0.21      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:12     1002    386032   18.00    1.00    0.00    0.00   19.00     3      2.00      0.00 1266812   16144   0.21      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:13     1002    386032   16.00    3.00    0.00    0.00   19.00     3    159.00      0.00 1266812   16784   0.22      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:14     1002    386032   18.00    2.00    0.00    0.00   20.00     3     97.00      0.00 1266812   17168   0.22      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:15     1002    386032   16.00    3.00    0.00    0.00   19.00     3      0.00      0.00 1266812   17168   0.22      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:16     1002    386032   18.00    2.00    0.00    0.00   20.00     3      7.00      0.00 1266812   17168   0.22      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:17     1002    386032   19.00    1.00    0.00    0.00   20.00     3      2.00      0.00 1266812   17168   0.22      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:18     1002    386032   17.00    1.00    0.00    0.00   18.00     3      7.00      0.00 1266812   17168   0.22      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:19     1002    386032   20.00    2.00    0.00    0.00   22.00     3     14.00      0.00 1266812   17424   0.23      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:20     1002    386032   17.00    1.00    0.00    0.00   18.00     3      1.00      0.00 1266812   17424   0.23      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:21     1002    386032   20.00    1.00    0.00    0.00   21.00     3     16.00      0.00 1266812   17424   0.23      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:22     1002    386032   17.00    2.00    0.00    0.00   19.00     3    167.00      0.00 1266812   18064   0.23      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:23     1002    386032   18.00    2.00    0.00    0.00   20.00     3    317.00      0.00 1332420   19344   0.25      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:24     1002    386032   17.00    2.00    0.00    0.00   19.00     3     34.00      0.00 1332420   19344   0.25      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:25     1002    386032   18.00    1.00    0.00    0.00   19.00     3      3.00      0.00 1332420   19344   0.25      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:26     1002    386032   20.00    2.00    0.00    0.00   22.00     3    308.00      0.00 1332420   20752   0.27      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:27     1002    386032   19.00    2.00    0.00    0.00   21.00     3    101.00      0.00 1332420   21008   0.27      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:28     1002    386032   22.00    2.00    0.00    0.00   24.00     3    458.00      0.00 1332420   22928   0.30      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:29     1002    386032   19.00    2.00    0.00    0.00   21.00     3    380.00      0.00 1332420   24336   0.31      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:30     1002    386032   19.00    2.00    0.00    0.00   21.00     3    142.00      0.00 1332420   24976   0.32      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:31     1002    386032   19.00    3.00    0.00    0.00   22.00     3    295.00      0.00 1332420   26000   0.34      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:32     1002    386032   20.00    2.00    0.00    0.00   22.00     3    364.00      0.00 1332420   27536   0.36      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:33     1002    386032   18.00    2.00    0.00    0.00   20.00     3    313.00      0.00 1332420   28688   0.37      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:34     1002    386032   19.00    3.00    0.00    0.00   22.00     3    201.00      0.00 1332420   29584   0.38      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:35     1002    386032   20.00    1.00    0.00    0.00   21.00     3     99.00      0.00 1332420   29968   0.39      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:36     1002    386032   19.00    3.00    0.00    0.00   22.00     3      9.00      0.00 1332420   29968   0.39      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:37     1002    386032   18.00    3.00    0.00    0.00   21.00     3     16.00      0.00 1332420   30096   0.39      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:38     1002    386032   17.00    3.00    0.00    0.00   20.00     3      2.00      0.00 1332420   30096   0.39      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:39     1002    386032   19.00    1.00    0.00    0.00   20.00     3     51.00      0.00 1332676   30352   0.39      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:40     1002    386032   19.00    2.00    0.00    0.00   21.00     3    140.00      0.00 1332676   30736   0.40      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:41     1002    386032   18.00    1.00    0.00    0.00   19.00     3     70.00      0.00 1332676   31120   0.40      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:42     1002    386032   18.00    2.00    0.00    0.00   20.00     3      1.00      0.00 1332676   31120   0.40      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:43     1002    386032   19.00    3.00    0.00    0.00   22.00     3      0.00      0.00 1332676   31120   0.40      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:44     1002    386032   17.00    2.00    0.00    0.00   19.00     3      0.00      0.00 1332676   31120   0.40      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:45     1002    386032   17.00    3.00    0.00    0.00   20.00     3      1.00      0.00 1332676   31120   0.40      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:46     1002    386032   19.00    3.00    0.00    0.00   22.00     3     72.00      0.00 1332676   31376   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:47     1002    386032   19.00    2.00    0.00    0.00   21.00     3     57.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:48     1002    386032   19.00    3.00    0.00    0.00   22.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:49     1002    386032   20.00    1.00    0.00    0.00   21.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:50     1002    386032   18.00    3.00    0.00    0.00   21.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:51     1002    386032   20.00    2.00    0.00    0.00   22.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:52     1002    386032   20.00    2.00    0.00    0.00   22.00     3      4.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:53     1002    386032   18.00    2.00    0.00    0.00   20.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:54     1002    386032   19.00    2.00    0.00    0.00   21.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:55     1002    386032   18.00    3.00    0.00    0.00   21.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:56     1002    386032   20.00    2.00    0.00    0.00   22.00     3      2.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:57     1002    386032   20.00    3.00    0.00    0.00   23.00     3      2.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:58     1002    386032   22.00    2.00    0.00    0.00   24.00     3      1.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:18:59     1002    386032   20.00    3.00    0.00    0.00   23.00     3      6.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:00     1002    386032   19.00    3.00    0.00    0.00   22.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:01     1002    386032   20.00    2.00    0.00    0.00   22.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:02     1002    386032   22.00    3.00    0.00    0.00   25.00     3      0.00      0.00 1332676   31632   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:03     1002    386032   23.00    2.00    0.00    0.00   25.00     3     79.00      0.00 1332676   32016   0.41      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:04     1002    386032   20.00    3.00    0.00    0.00   23.00     3    250.00      0.00 1332676   32912   0.43      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:05     1002    386032   22.00    2.00    0.00    0.00   24.00     3     67.00      0.00 1332676   33168   0.43      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:06     1002    386032   21.00    4.00    0.00    0.00   25.00     3      2.00      0.00 1332676   33168   0.43      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:07     1002    386032   21.00    2.00    0.00    0.00   23.00     3      1.00      0.00 1332676   33168   0.43      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:08     1002    386032   21.00    3.00    0.00    0.00   24.00     3      0.00      0.00 1332676   33168   0.43      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:09     1002    386032   20.00    2.00    0.00    0.00   22.00     3      2.00      0.00 1332676   33168   0.43      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:10     1002    386032   22.00    3.00    0.00    0.00   25.00     3    167.00      0.00 1332676   33808   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:11     1002    386032   20.00    1.00    0.00    0.00   21.00     3     87.00      0.00 1332676   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:12     1002    386032   21.00    3.00    0.00    0.00   24.00     3      1.00      0.00 1332676   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:13     1002    386032   22.00    3.00    0.00    0.00   25.00     3      6.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:14     1002    386032   21.00    2.00    0.00    0.00   23.00     3      7.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:15     1002    386032   23.00    2.00    0.00    0.00   25.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:16     1002    386032   21.00    2.00    0.00    0.00   23.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:17     1002    386032   20.00    4.00    0.00    0.00   24.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:18     1002    386032   21.00    2.00    0.00    0.00   23.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:19     1002    386032   20.00    2.00    0.00    0.00   22.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:20     1002    386032   20.00    2.00    0.00    0.00   22.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:21     1002    386032   21.00    3.00    0.00    0.00   24.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:22     1002    386032   20.00    3.00    0.00    0.00   23.00     3      2.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:23     1002    386032   20.00    3.00    0.00    0.00   23.00     3      5.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:24     1002    386032   20.00    2.00    0.00    0.00   22.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:25     1002    386032   22.00    2.00    0.00    0.00   24.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:26     1002    386032    2.00    1.00    0.00    0.00    3.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   cswch/s nvcswch/s  Command
+15:19:27     1002    386032    0.00    0.00    0.00    0.00    0.00     3      0.00      0.00 1332932   34320   0.44      0.00      0.00  enrolld
