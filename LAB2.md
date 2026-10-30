@@ -551,5 +551,5 @@ FastBurn 第一次出现 firing 时 `/api/v1/alerts` 返回的记录（17:09:14 
 |---|---|
 | RyanShen30 | 任务 0：环境核验、构建测试与工具下载、fsync 基线、资源观测；任务 1：监控启动与绑核、四条 PromQL、轻载实验、报告及原始证据整理 |
 | Liuxiang400 | 任务 2：读路径预测、R1/R2 压测、CPU 剖析、报告及原始证据整理 |
-| Shundi-Wu | 后续任务分工待确认 |
-| ashkirakira | 后续任务分工待确认 |
+| Shundi-Wu | 任务 4：第 6 节四道分析题、派生数值脚本 `evidence/task4-20261030/derive.py` 及数值核对；选做 O1（GOGC 对比）、O2（准备第二台主机，双机测带宽上限）、O3（燃烧率告警规则与“三行九格”看板）及原始证据整理；最终提交 |
+| ashkirakira | 任务 3：写路径预测、W1/W2/W3 压测（独立端口运行脚本 `scripts/task3-run.py`）、报告及原始证据整理 |
