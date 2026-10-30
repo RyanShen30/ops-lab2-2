@@ -1,0 +1,1831 @@
+Linux 6.8.0-147-generic (ecs-59c8) 	2026-10-30 	_x86_64_	(4 CPU)
+
+21:24:55     active/s passive/s    iseg/s    oseg/s
+21:24:56         1.00      2.00    389.00   8066.00
+
+21:24:55     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:24:56         0.00      0.00      0.00      0.00      0.00
+
+21:24:56     active/s passive/s    iseg/s    oseg/s
+21:24:57         0.00      0.00    311.00   7300.00
+
+21:24:56     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:24:57         0.00      0.00      1.00      0.00      0.00
+
+21:24:57     active/s passive/s    iseg/s    oseg/s
+21:24:58         1.00      0.00    263.00   7504.00
+
+21:24:57     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:24:58         0.00      0.00      0.00      0.00      3.00
+
+21:24:58     active/s passive/s    iseg/s    oseg/s
+21:24:59         0.00      0.00    272.00   8593.00
+
+21:24:58     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:24:59         0.00      0.00      0.00      0.00      0.00
+
+21:24:59     active/s passive/s    iseg/s    oseg/s
+21:25:00         1.00      0.00    280.00   7025.00
+
+21:24:59     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:00         0.00      0.00      0.00      0.00      0.00
+
+21:25:00     active/s passive/s    iseg/s    oseg/s
+21:25:01         0.00      0.00    381.00  10550.00
+
+21:25:00     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:01         0.00      0.00      0.00      0.00      0.00
+
+21:25:01     active/s passive/s    iseg/s    oseg/s
+21:25:02         0.00      0.00    333.00  11484.00
+
+21:25:01     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:02         0.00      0.00      0.00      0.00      0.00
+
+21:25:02     active/s passive/s    iseg/s    oseg/s
+21:25:03         0.00      0.00    197.00   6385.00
+
+21:25:02     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:03         0.00      0.00      0.00      0.00      0.00
+
+21:25:03     active/s passive/s    iseg/s    oseg/s
+21:25:04         0.00      0.00    318.00   9492.00
+
+21:25:03     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:04         0.00      0.00      0.00      0.00      0.00
+
+21:25:04     active/s passive/s    iseg/s    oseg/s
+21:25:05         0.00      0.00    277.00   8936.00
+
+21:25:04     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:05         0.00      0.00      0.00      0.00      0.00
+
+21:25:05     active/s passive/s    iseg/s    oseg/s
+21:25:06         0.00      0.00    285.00   9116.00
+
+21:25:05     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:06         0.00      0.00      1.00      0.00      0.00
+
+21:25:06     active/s passive/s    iseg/s    oseg/s
+21:25:07         0.00      0.00    289.00  10026.00
+
+21:25:06     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:07         0.00      0.00      0.00      0.00      0.00
+
+21:25:07     active/s passive/s    iseg/s    oseg/s
+21:25:08         0.00      0.00    325.00  10755.00
+
+21:25:07     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:08         0.00      0.00      0.00      0.00      0.00
+
+21:25:08     active/s passive/s    iseg/s    oseg/s
+21:25:09         0.00      0.00    271.00   9852.00
+
+21:25:08     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:09         0.00      0.00      0.00      0.00      0.00
+
+21:25:09     active/s passive/s    iseg/s    oseg/s
+21:25:10         0.00      0.00    238.00   8027.00
+
+21:25:09     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:10         0.00      0.00      0.00      0.00      0.00
+
+21:25:10     active/s passive/s    iseg/s    oseg/s
+21:25:11         0.00      0.00    264.00   9674.00
+
+21:25:10     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:11         0.00      0.00      0.00      0.00      0.00
+
+21:25:11     active/s passive/s    iseg/s    oseg/s
+21:25:12         0.00      0.00    307.00  10211.00
+
+21:25:11     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:12         0.00      0.00      0.00      0.00      0.00
+
+21:25:12     active/s passive/s    iseg/s    oseg/s
+21:25:13         0.00      0.00    268.00   9481.00
+
+21:25:12     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:13         0.00      0.00      0.00      0.00      0.00
+
+21:25:13     active/s passive/s    iseg/s    oseg/s
+21:25:14         0.00      0.00    281.00   9670.00
+
+21:25:13     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:14         0.00      0.00      0.00      0.00      0.00
+
+21:25:14     active/s passive/s    iseg/s    oseg/s
+21:25:15         0.00      1.00    259.00   8761.00
+
+21:25:14     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:15         0.00      0.00      0.00      0.00      0.00
+
+21:25:15     active/s passive/s    iseg/s    oseg/s
+21:25:16         0.00      0.00    288.00   9661.00
+
+21:25:15     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:16         0.00      0.00      1.00      0.00      0.00
+
+21:25:16     active/s passive/s    iseg/s    oseg/s
+21:25:17         0.00      0.00    240.00   8934.00
+
+21:25:16     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:17         0.00      0.00      0.00      0.00      0.00
+
+21:25:17     active/s passive/s    iseg/s    oseg/s
+21:25:18         0.00      0.00    353.00  11502.00
+
+21:25:17     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:18         0.00      0.00      0.00      0.00      0.00
+
+21:25:18     active/s passive/s    iseg/s    oseg/s
+21:25:19         0.00      0.00    215.00   7118.00
+
+21:25:18     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:19         0.00      0.00      0.00      0.00      0.00
+
+21:25:19     active/s passive/s    iseg/s    oseg/s
+21:25:20         0.00      0.00    190.00   6752.00
+
+21:25:19     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:20         0.00      0.00      0.00      0.00      0.00
+
+21:25:20     active/s passive/s    iseg/s    oseg/s
+21:25:21         0.00      0.00    351.00  11477.00
+
+21:25:20     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:21         0.00      0.00      0.00      0.00      0.00
+
+21:25:21     active/s passive/s    iseg/s    oseg/s
+21:25:22         0.00      0.00    274.00  10206.00
+
+21:25:21     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:22         0.00      0.00      0.00      0.00      0.00
+
+21:25:22     active/s passive/s    iseg/s    oseg/s
+21:25:23         0.00      0.00    269.00   9294.00
+
+21:25:22     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:23         0.00      0.00      0.00      0.00      0.00
+
+21:25:23     active/s passive/s    iseg/s    oseg/s
+21:25:24         0.00      0.00    308.00  10028.00
+
+21:25:23     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:24         0.00      0.00      0.00      0.00      0.00
+
+21:25:24     active/s passive/s    iseg/s    oseg/s
+21:25:25         0.00      0.00    261.00   9295.00
+
+21:25:24     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:25         0.00      0.00      0.00      0.00      0.00
+
+21:25:25     active/s passive/s    iseg/s    oseg/s
+21:25:26         0.00      0.00    561.00  19489.00
+
+21:25:25     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:26         0.00      0.00      0.00      0.00      0.00
+
+21:25:26     active/s passive/s    iseg/s    oseg/s
+21:25:27         0.00      1.00    616.00  18762.00
+
+21:25:26     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:27         0.00      0.00      0.00      0.00      0.00
+
+21:25:27     active/s passive/s    iseg/s    oseg/s
+21:25:28         0.00      0.00    568.00  18759.00
+
+21:25:27     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:28         0.00      0.00      0.00      0.00      0.00
+
+21:25:28     active/s passive/s    iseg/s    oseg/s
+21:25:29         0.00      1.00    583.00  20041.00
+
+21:25:28     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:29         0.00      0.00      0.00      0.00      0.00
+
+21:25:29     active/s passive/s    iseg/s    oseg/s
+21:25:30         0.00      0.00    625.00  22217.00
+
+21:25:29     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:30         0.00      0.00      0.00      0.00      0.00
+
+21:25:30     active/s passive/s    iseg/s    oseg/s
+21:25:31         0.00      0.00    739.00  18035.00
+
+21:25:30     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:31         0.00      0.00     18.00      0.00      0.00
+
+21:25:31     active/s passive/s    iseg/s    oseg/s
+21:25:32         0.00      0.00    772.00  18480.00
+
+21:25:31     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:32         0.00      0.00      0.00      0.00      0.00
+
+21:25:32     active/s passive/s    iseg/s    oseg/s
+21:25:33         0.00      0.00    614.00  17510.00
+
+21:25:32     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:33         0.00      0.00      0.00      0.00      0.00
+
+21:25:33     active/s passive/s    iseg/s    oseg/s
+21:25:34         0.00      0.00   2101.00  18941.00
+
+21:25:33     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:34         0.00      0.00      0.00      0.00      0.00
+
+21:25:34     active/s passive/s    iseg/s    oseg/s
+21:25:35         0.00      0.00   1780.00  16205.00
+
+21:25:34     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:35         0.00      0.00      0.00      0.00      0.00
+
+21:25:35     active/s passive/s    iseg/s    oseg/s
+21:25:36         3.00      0.00   1689.00  16795.00
+
+21:25:35     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:36         0.00      0.00      1.00      0.00      2.00
+
+21:25:36     active/s passive/s    iseg/s    oseg/s
+21:25:37         2.00      0.00   1919.00  17901.00
+
+21:25:36     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:37         0.00      0.00      0.00      0.00      0.00
+
+21:25:37     active/s passive/s    iseg/s    oseg/s
+21:25:38         0.00      0.00   1071.00  17852.00
+
+21:25:37     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:38         0.00      0.00      1.00      0.00      0.00
+
+21:25:38     active/s passive/s    iseg/s    oseg/s
+21:25:39         0.00      0.00   1569.00  17675.00
+
+21:25:38     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:39         0.00      0.00      0.00      0.00      0.00
+
+21:25:39     active/s passive/s    iseg/s    oseg/s
+21:25:40         0.00      0.00   1470.00  14650.00
+
+21:25:39     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:40         0.00      0.00      1.00      0.00      0.00
+
+21:25:40     active/s passive/s    iseg/s    oseg/s
+21:25:41         0.00      0.00   1437.00  17462.00
+
+21:25:40     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:41         0.00      0.00      6.00      0.00      0.00
+
+21:25:41     active/s passive/s    iseg/s    oseg/s
+21:25:42         0.00      0.00   1446.00  17479.00
+
+21:25:41     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:42         0.00      0.00      0.00      0.00      0.00
+
+21:25:42     active/s passive/s    iseg/s    oseg/s
+21:25:43         0.00      0.00    953.00  17478.00
+
+21:25:42     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:43         0.00      0.00      0.00      0.00      0.00
+
+21:25:43     active/s passive/s    iseg/s    oseg/s
+21:25:44         0.00      0.00   1068.00  16769.00
+
+21:25:43     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:44         0.00      0.00      0.00      0.00      0.00
+
+21:25:44     active/s passive/s    iseg/s    oseg/s
+21:25:45         0.00      0.00   1015.00  19117.00
+
+21:25:44     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:45         0.00      0.00      0.00      0.00      0.00
+
+21:25:45     active/s passive/s    iseg/s    oseg/s
+21:25:46         0.00      0.00   1478.00  18024.00
+
+21:25:45     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:46         0.00      0.00      0.00      0.00      0.00
+
+21:25:46     active/s passive/s    iseg/s    oseg/s
+21:25:47         0.00      0.00   1020.00  18036.00
+
+21:25:46     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:47         0.00      0.00     89.00      0.00      0.00
+
+21:25:47     active/s passive/s    iseg/s    oseg/s
+21:25:48         0.00      0.00   1858.00  15294.00
+
+21:25:47     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:48         0.00      0.00      0.00      0.00      0.00
+
+21:25:48     active/s passive/s    iseg/s    oseg/s
+21:25:49         1.00      0.00    861.00  20778.00
+
+21:25:48     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:49         0.00      0.00      0.00      0.00      2.00
+
+21:25:49     active/s passive/s    iseg/s    oseg/s
+21:25:50         0.00      0.00   1461.00  16570.00
+
+21:25:49     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:50         0.00      0.00      0.00      0.00      0.00
+
+21:25:50     active/s passive/s    iseg/s    oseg/s
+21:25:51         0.00      0.00    662.00  16387.00
+
+21:25:50     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:51         0.00      0.00      0.00      0.00      0.00
+
+21:25:51     active/s passive/s    iseg/s    oseg/s
+21:25:52         0.00      0.00   1682.00  15658.00
+
+21:25:51     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:52         0.00      0.00      0.00      0.00      0.00
+
+21:25:52     active/s passive/s    iseg/s    oseg/s
+21:25:53         0.00      0.00   2174.00  18934.00
+
+21:25:52     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:53         0.00      0.00      0.00      0.00      0.00
+
+21:25:53     active/s passive/s    iseg/s    oseg/s
+21:25:54         0.00      0.00    434.00  16030.00
+
+21:25:53     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:54         0.00      0.00      0.00      0.00      0.00
+
+21:25:54     active/s passive/s    iseg/s    oseg/s
+21:25:55         0.00      0.00    798.00  16569.00
+
+21:25:54     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:55         0.00      0.00      0.00      0.00      0.00
+
+21:25:55     active/s passive/s    iseg/s    oseg/s
+21:25:56         0.00      0.00   1975.00  31813.00
+
+21:25:55     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:56         0.00      0.00      0.00      0.00      0.00
+
+21:25:56     active/s passive/s    iseg/s    oseg/s
+21:25:57         0.00      0.00   2480.00  36086.00
+
+21:25:56     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:57         0.00      0.00      0.00      0.00      0.00
+
+21:25:57     active/s passive/s    iseg/s    oseg/s
+21:25:58         0.00      0.00   2470.00  37870.00
+
+21:25:57     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:58         0.00      0.00      0.00      0.00      0.00
+
+21:25:58     active/s passive/s    iseg/s    oseg/s
+21:25:59         0.00      0.00   3437.00  38964.00
+
+21:25:58     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:25:59         0.00      0.00      0.00      0.00      0.00
+
+21:25:59     active/s passive/s    iseg/s    oseg/s
+21:26:00         0.00      0.00   2026.00  36593.00
+
+21:25:59     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:00         0.00      0.00      0.00      0.00      0.00
+
+21:26:00     active/s passive/s    iseg/s    oseg/s
+21:26:01         0.00      0.00   3255.00  38228.00
+
+21:26:00     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:01         0.00      0.00     50.00      0.00      0.00
+
+21:26:01     active/s passive/s    iseg/s    oseg/s
+21:26:02         0.00      0.00   1514.00  35497.00
+
+21:26:01     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:02         0.00      0.00      0.00      0.00      0.00
+
+21:26:02     active/s passive/s    iseg/s    oseg/s
+21:26:03         0.00      0.00   2840.00  39317.00
+
+21:26:02     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:03         0.00      0.00     44.00      0.00      0.00
+
+21:26:03     active/s passive/s    iseg/s    oseg/s
+21:26:04         0.00      0.00   3394.00  38418.00
+
+21:26:03     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:04         0.00      0.00      0.00      0.00      0.00
+
+21:26:04     active/s passive/s    iseg/s    oseg/s
+21:26:05         0.00      0.00   2862.00  38227.00
+
+21:26:04     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:05         0.00      0.00      0.00      0.00      0.00
+
+21:26:05     active/s passive/s    iseg/s    oseg/s
+21:26:06         0.00      0.00   3112.00  39319.00
+
+21:26:05     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:06         0.00      0.00      0.00      0.00      0.00
+
+21:26:06     active/s passive/s    iseg/s    oseg/s
+21:26:07         0.00      0.00   1688.00  34404.00
+
+21:26:06     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:07         0.00      0.00      0.00      0.00      0.00
+
+21:26:07     active/s passive/s    iseg/s    oseg/s
+21:26:08         0.00      0.00   3509.00  40593.00
+
+21:26:07     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:08         0.00      0.00      0.00      0.00      0.00
+
+21:26:08     active/s passive/s    iseg/s    oseg/s
+21:26:09         0.00      0.00   1102.00  39507.00
+
+21:26:08     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:09         0.00      0.00      0.00      0.00      0.00
+
+21:26:09     active/s passive/s    iseg/s    oseg/s
+21:26:10         0.00      0.00    983.00  35498.00
+
+21:26:09     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:10         0.00      0.00      0.00      0.00      0.00
+
+21:26:10     active/s passive/s    iseg/s    oseg/s
+21:26:11         0.00      0.00    993.00  34046.00
+
+21:26:10     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:11         0.00      0.00      0.00      0.00      0.00
+
+21:26:11     active/s passive/s    iseg/s    oseg/s
+21:26:12         0.00      0.00    916.00  33491.00
+
+21:26:11     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:12         0.00      0.00      0.00      0.00      0.00
+
+21:26:12     active/s passive/s    iseg/s    oseg/s
+21:26:13         0.00      0.00    986.00  34587.00
+
+21:26:12     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:13         0.00      0.00      0.00      0.00      0.00
+
+21:26:13     active/s passive/s    iseg/s    oseg/s
+21:26:14         0.00      0.00    908.00  32774.00
+
+21:26:13     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:14         0.00      0.00      0.00      0.00      0.00
+
+21:26:14     active/s passive/s    iseg/s    oseg/s
+21:26:15         0.00      0.00    983.00  33678.00
+
+21:26:14     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:15         0.00      0.00      0.00      0.00      0.00
+
+21:26:15     active/s passive/s    iseg/s    oseg/s
+21:26:16         0.00      0.00    977.00  32402.00
+
+21:26:15     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:16         0.00      0.00      0.00      0.00      0.00
+
+21:26:16     active/s passive/s    iseg/s    oseg/s
+21:26:17         0.00      0.00   1013.00  36953.00
+
+21:26:16     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:17         0.00      0.00      0.00      0.00      0.00
+
+21:26:17     active/s passive/s    iseg/s    oseg/s
+21:26:18         0.00      0.00   1079.00  38045.00
+
+21:26:17     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:18         0.00      0.00      0.00      0.00      0.00
+
+21:26:18     active/s passive/s    iseg/s    oseg/s
+21:26:19         0.00      0.00   1084.00  39873.00
+
+21:26:18     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:19         0.00      0.00      0.00      0.00      0.00
+
+21:26:19     active/s passive/s    iseg/s    oseg/s
+21:26:20         0.00      0.00   1056.00  36408.00
+
+21:26:19     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:20         0.00      0.00      0.00      0.00      0.00
+
+21:26:20     active/s passive/s    iseg/s    oseg/s
+21:26:21         0.00      0.00   1034.00  36952.00
+
+21:26:20     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:21         0.00      0.00      0.00      0.00      0.00
+
+21:26:21     active/s passive/s    iseg/s    oseg/s
+21:26:22         0.00      0.00    986.00  36589.00
+
+21:26:21     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:22         0.00      0.00      0.00      0.00      0.00
+
+21:26:22     active/s passive/s    iseg/s    oseg/s
+21:26:23         0.00      0.00   1039.00  38046.00
+
+21:26:22     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:23         0.00      0.00      0.00      0.00      0.00
+
+21:26:23     active/s passive/s    iseg/s    oseg/s
+21:26:24         0.00      0.00    999.00  34779.00
+
+21:26:23     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:24         0.00      0.00      0.00      0.00      0.00
+
+21:26:24     active/s passive/s    iseg/s    oseg/s
+21:26:25         0.00      0.00    961.00  34403.00
+
+21:26:24     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:25         0.00      0.00      0.00      0.00      0.00
+
+21:26:25     active/s passive/s    iseg/s    oseg/s
+21:26:26         0.00      0.00   3352.00  61341.00
+
+21:26:25     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:26         0.00      0.00      0.00      0.00      0.00
+
+21:26:26     active/s passive/s    iseg/s    oseg/s
+21:26:27         0.00      1.00   4516.00  70445.00
+
+21:26:26     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:27         0.00      0.00      0.00      0.00      0.00
+
+21:26:27     active/s passive/s    iseg/s    oseg/s
+21:26:28         1.00      0.00   2500.00  72278.00
+
+21:26:27     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:28         0.00      0.00      0.00      0.00      2.00
+
+21:26:28     active/s passive/s    iseg/s    oseg/s
+21:26:29         0.00      0.00   4886.00  74451.00
+
+21:26:28     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:29         0.00      0.00    101.00      0.00      0.00
+
+21:26:29     active/s passive/s    iseg/s    oseg/s
+21:26:30         0.00      0.00   4435.00  72627.00
+
+21:26:29     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:30         0.00      0.00     93.00      0.00      0.00
+
+21:26:30     active/s passive/s    iseg/s    oseg/s
+21:26:31         1.00      1.00   4000.00  76827.00
+
+21:26:30     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:31         0.00      0.00      0.00      0.00      2.00
+
+21:26:31     active/s passive/s    iseg/s    oseg/s
+21:26:32         0.00      0.00   1963.00  74263.00
+
+21:26:31     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:32         0.00      0.00      0.00      0.00      0.00
+
+21:26:32     active/s passive/s    iseg/s    oseg/s
+21:26:33         0.00      0.00   2138.00  78995.00
+
+21:26:32     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:33         0.00      0.00      0.00      0.00      0.00
+
+21:26:33     active/s passive/s    iseg/s    oseg/s
+21:26:34         0.00      0.00   2056.00  72449.00
+
+21:26:33     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:34         0.00      0.00      0.00      0.00      0.00
+
+21:26:34     active/s passive/s    iseg/s    oseg/s
+21:26:35         0.00      0.00   1685.00  64252.00
+
+21:26:34     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:35         0.00      0.00      0.00      0.00      0.00
+
+21:26:35     active/s passive/s    iseg/s    oseg/s
+21:26:36         3.00      0.00   2083.00  73757.00
+
+21:26:35     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:36         0.00      0.00      0.00      0.00      2.00
+
+21:26:36     active/s passive/s    iseg/s    oseg/s
+21:26:37         2.00      0.00   2012.00  72676.00
+
+21:26:36     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:37         0.00      0.00      0.00      0.00      0.00
+
+21:26:37     active/s passive/s    iseg/s    oseg/s
+21:26:38         0.00      0.00   2210.00  80451.00
+
+21:26:37     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:38         0.00      0.00      0.00      0.00      0.00
+
+21:26:38     active/s passive/s    iseg/s    oseg/s
+21:26:39         0.00      0.00   1970.00  72631.00
+
+21:26:38     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:39         0.00      0.00      0.00      0.00      0.00
+
+21:26:39     active/s passive/s    iseg/s    oseg/s
+21:26:40         0.00      0.00   2022.00  75175.00
+
+21:26:39     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:40         0.00      0.00      0.00      0.00      0.00
+
+21:26:40     active/s passive/s    iseg/s    oseg/s
+21:26:41         0.00      0.00   2046.00  74447.00
+
+21:26:40     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:41         0.00      0.00      0.00      0.00      0.00
+
+21:26:41     active/s passive/s    iseg/s    oseg/s
+21:26:42         0.00      0.00   1939.00  72989.00
+
+21:26:41     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:42         0.00      0.00      0.00      0.00      0.00
+
+21:26:42     active/s passive/s    iseg/s    oseg/s
+21:26:43         0.00      0.00   1915.00  68984.00
+
+21:26:42     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:43         0.00      0.00      0.00      0.00      0.00
+
+21:26:43     active/s passive/s    iseg/s    oseg/s
+21:26:44         0.00      0.00   2271.00  83919.00
+
+21:26:43     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:44         0.00      0.00      0.00      0.00      0.00
+
+21:26:44     active/s passive/s    iseg/s    oseg/s
+21:26:45         0.00      0.00   2022.00  78995.00
+
+21:26:44     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:45         0.00      0.00      0.00      0.00      0.00
+
+21:26:45     active/s passive/s    iseg/s    oseg/s
+21:26:46         0.00      0.00   1976.00  72627.00
+
+21:26:45     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:46         0.00      0.00      0.00      0.00      0.00
+
+21:26:46     active/s passive/s    iseg/s    oseg/s
+21:26:47         0.00      0.00   2003.00  74446.00
+
+21:26:46     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:47         0.00      0.00      0.00      0.00      0.00
+
+21:26:47     active/s passive/s    iseg/s    oseg/s
+21:26:48         2.00      1.00   2261.00  82115.00
+
+21:26:47     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:48         0.00      0.00      0.00      0.00      2.00
+
+21:26:48     active/s passive/s    iseg/s    oseg/s
+21:26:49         2.00      2.00   2138.00  78487.00
+
+21:26:48     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:49         0.00      0.00      0.00      0.00      0.00
+
+21:26:49     active/s passive/s    iseg/s    oseg/s
+21:26:50         0.00      0.00   1879.00  68277.00
+
+21:26:49     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:50         0.00      0.00      0.00      0.00      0.00
+
+21:26:50     active/s passive/s    iseg/s    oseg/s
+21:26:51         0.00      0.00   2004.00  69180.00
+
+21:26:50     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:51         0.00      0.00      0.00      0.00      0.00
+
+21:26:51     active/s passive/s    iseg/s    oseg/s
+21:26:52         0.00      0.00   2070.00  72648.00
+
+21:26:51     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:52         0.00      0.00      0.00      0.00      0.00
+
+21:26:52     active/s passive/s    iseg/s    oseg/s
+21:26:53         0.00      0.00   2003.00  73363.00
+
+21:26:52     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:53         0.00      0.00      0.00      0.00      0.00
+
+21:26:53     active/s passive/s    iseg/s    oseg/s
+21:26:54         0.00      0.00   2000.00  72089.00
+
+21:26:53     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:54         0.00      0.00      0.00      0.00      0.00
+
+21:26:54     active/s passive/s    iseg/s    oseg/s
+21:26:55         1.00      0.00   2013.00  73899.00
+
+21:26:54     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:55         0.00      0.00      0.00      0.00      0.00
+
+21:26:55     active/s passive/s    iseg/s    oseg/s
+21:26:56         0.00      0.00   2687.00  97567.00
+
+21:26:55     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:56         0.00      0.00      0.00      0.00      0.00
+
+21:26:56     active/s passive/s    iseg/s    oseg/s
+21:26:57         0.00      1.00   5128.00 108846.00
+
+21:26:56     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:57         0.00      0.00     91.00      0.00      0.00
+
+21:26:57     active/s passive/s    iseg/s    oseg/s
+21:26:58         0.00      0.00   7337.00 113211.00
+
+21:26:57     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:58         0.00      0.00    146.00      0.00      0.00
+
+21:26:58     active/s passive/s    iseg/s    oseg/s
+21:26:59         0.00      0.00   6588.00 112493.00
+
+21:26:58     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:26:59         0.00      0.00     48.00      0.00      0.00
+
+21:26:59     active/s passive/s    iseg/s    oseg/s
+21:27:00         0.00      0.00   5785.00 117581.00
+
+21:26:59     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:00         0.00      0.00      0.00      0.00      0.00
+
+21:27:00     active/s passive/s    iseg/s    oseg/s
+21:27:01         1.00      0.00   5721.00 110493.00
+
+21:27:00     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:01         0.00      0.00      0.00      0.00      2.00
+
+21:27:01     active/s passive/s    iseg/s    oseg/s
+21:27:02         0.00      0.00   5300.00 110481.00
+
+21:27:01     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:02         0.00      0.00      0.00      0.00      0.00
+
+21:27:02     active/s passive/s    iseg/s    oseg/s
+21:27:03         1.00      0.00   4479.00 113407.00
+
+21:27:02     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:03         0.00      0.00      0.00      0.00      2.00
+
+21:27:03     active/s passive/s    iseg/s    oseg/s
+21:27:04         0.00      0.00   4344.00 107577.00
+
+21:27:03     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:04         0.00      0.00      0.00      0.00      0.00
+
+21:27:04     active/s passive/s    iseg/s    oseg/s
+21:27:05         0.00      0.00   5249.00 110662.00
+
+21:27:04     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:05         0.00      0.00     78.00      0.00      0.00
+
+21:27:05     active/s passive/s    iseg/s    oseg/s
+21:27:06         0.00      0.00   4021.00 106113.00
+
+21:27:05     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:06         0.00      0.00      0.00      0.00      0.00
+
+21:27:06     active/s passive/s    iseg/s    oseg/s
+21:27:07         0.00      0.00   5484.00 113029.00
+
+21:27:06     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:07         0.00      0.00      0.00      0.00      0.00
+
+21:27:07     active/s passive/s    iseg/s    oseg/s
+21:27:08         0.00      0.00   5638.00 108843.00
+
+21:27:07     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:08         0.00      0.00      0.00      0.00      0.00
+
+21:27:08     active/s passive/s    iseg/s    oseg/s
+21:27:09         0.00      0.00   4921.00 110851.00
+
+21:27:08     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:09         0.00      0.00      0.00      0.00      0.00
+
+21:27:09     active/s passive/s    iseg/s    oseg/s
+21:27:10         0.00      0.00   6312.00 107755.00
+
+21:27:09     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:10         0.00      0.00      0.00      0.00      0.00
+
+21:27:10     active/s passive/s    iseg/s    oseg/s
+21:27:11         0.00      0.00   4537.00 105752.00
+
+21:27:10     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:11         0.00      0.00      0.00      0.00      1.00
+
+21:27:11     active/s passive/s    iseg/s    oseg/s
+21:27:12         0.00      0.00   4882.00 105749.00
+
+21:27:11     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:12         0.00      0.00      0.00      0.00      0.00
+
+21:27:12     active/s passive/s    iseg/s    oseg/s
+21:27:13         1.00      1.00   4543.00 109220.00
+
+21:27:12     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:13         0.00      0.00      0.00      0.00      0.00
+
+21:27:13     active/s passive/s    iseg/s    oseg/s
+21:27:14         0.00      0.00   6706.00 114185.00
+
+21:27:13     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:14         0.00      0.00      4.00      0.00      3.00
+
+21:27:14     active/s passive/s    iseg/s    oseg/s
+21:27:15         0.00      0.00   3632.00 106872.00
+
+21:27:14     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:15         0.00      0.00      0.00      0.00      0.00
+
+21:27:15     active/s passive/s    iseg/s    oseg/s
+21:27:16         0.00      0.00   6488.00 105046.00
+
+21:27:15     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:16         0.00      0.00      0.00      0.00      0.00
+
+21:27:16     active/s passive/s    iseg/s    oseg/s
+21:27:17         0.00      0.00   4034.00 105930.00
+
+21:27:16     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:17         0.00      0.00      0.00      0.00      0.00
+
+21:27:17     active/s passive/s    iseg/s    oseg/s
+21:27:18         0.00      0.00   3961.00 113393.00
+
+21:27:17     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:18         0.00      0.00      0.00      0.00      0.00
+
+21:27:18     active/s passive/s    iseg/s    oseg/s
+21:27:19         0.00      0.00   3705.00 108486.00
+
+21:27:18     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:19         0.00      0.00      0.00      0.00      0.00
+
+21:27:19     active/s passive/s    iseg/s    oseg/s
+21:27:20         0.00      0.00   4705.00 112665.00
+
+21:27:19     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:20         0.00      0.00      0.00      0.00      0.00
+
+21:27:20     active/s passive/s    iseg/s    oseg/s
+21:27:21         0.00      0.00   7484.00 105749.00
+
+21:27:20     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:21         0.00      0.00      0.00      0.00      0.00
+
+21:27:21     active/s passive/s    iseg/s    oseg/s
+21:27:22         0.00      0.00   4489.00 107204.00
+
+21:27:21     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:22         0.00      0.00     43.00      0.00      0.00
+
+21:27:22     active/s passive/s    iseg/s    oseg/s
+21:27:23         0.00      0.00   7334.00 104475.00
+
+21:27:22     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:23         0.00      0.00      0.00      0.00      0.00
+
+21:27:23     active/s passive/s    iseg/s    oseg/s
+21:27:24         0.00      0.00   6589.00 106667.00
+
+21:27:23     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:24         0.00      0.00      1.00      0.00      0.00
+
+21:27:24     active/s passive/s    iseg/s    oseg/s
+21:27:25         0.00      0.00   8107.00 112482.00
+
+21:27:24     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:25         0.00      0.00      0.00      0.00      0.00
+
+21:27:25     active/s passive/s    iseg/s    oseg/s
+21:27:26         0.00      0.00   7120.00 134505.00
+
+21:27:25     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:26         0.00      0.00      0.00      0.00      0.00
+
+21:27:26     active/s passive/s    iseg/s    oseg/s
+21:27:27         0.00      0.00   9267.00 142150.00
+
+21:27:26     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:27         0.00      0.00    102.00      0.00      0.00
+
+21:27:27     active/s passive/s    iseg/s    oseg/s
+21:27:28         0.00      0.00   8543.00 140328.00
+
+21:27:27     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:28         0.00      0.00      0.00      0.00      0.00
+
+21:27:28     active/s passive/s    iseg/s    oseg/s
+21:27:29         0.00      0.00   9756.00 151074.00
+
+21:27:28     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:29         0.00      0.00      0.00      0.00      0.00
+
+21:27:29     active/s passive/s    iseg/s    oseg/s
+21:27:30         0.00      0.00   6976.00 140786.00
+
+21:27:29     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:30         0.00      0.00    103.00      0.00      0.00
+
+21:27:30     active/s passive/s    iseg/s    oseg/s
+21:27:31         0.00      0.00   8164.00 152066.00
+
+21:27:30     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:31         0.00      0.00      0.00      0.00      0.00
+
+21:27:31     active/s passive/s    iseg/s    oseg/s
+21:27:32         0.00      0.00   8074.00 143243.00
+
+21:27:31     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:32         0.00      0.00      0.00      0.00      0.00
+
+21:27:32     active/s passive/s    iseg/s    oseg/s
+21:27:33         0.00      0.00   8519.00 154889.00
+
+21:27:32     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:33         0.00      0.00      1.00      0.00      0.00
+
+21:27:33     active/s passive/s    iseg/s    oseg/s
+21:27:34         0.00      0.00   7350.00 143610.00
+
+21:27:33     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:34         0.00      0.00      0.00      0.00      0.00
+
+21:27:34     active/s passive/s    iseg/s    oseg/s
+21:27:35         0.00      0.00   9834.00 143969.00
+
+21:27:34     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:35         0.00      0.00      0.00      0.00      0.00
+
+21:27:35     active/s passive/s    iseg/s    oseg/s
+21:27:36         5.00      0.00   7362.00 144939.00
+
+21:27:35     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:36         0.00      0.00      0.00      0.00      1.00
+
+21:27:36     active/s passive/s    iseg/s    oseg/s
+21:27:37         2.00      0.00   6750.00 145474.00
+
+21:27:36     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:37         0.00      0.00      0.00      0.00      0.00
+
+21:27:37     active/s passive/s    iseg/s    oseg/s
+21:27:38         0.00      0.00   9334.00 151613.00
+
+21:27:37     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:38         0.00      0.00      1.00      0.00      0.00
+
+21:27:38     active/s passive/s    iseg/s    oseg/s
+21:27:39         0.00      0.00   8718.00 151073.00
+
+21:27:38     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:39         0.00      0.00      0.00      0.00      0.00
+
+21:27:39     active/s passive/s    iseg/s    oseg/s
+21:27:40         0.00      0.00   7504.00 144697.00
+
+21:27:39     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:40         0.00      0.00      0.00      0.00      0.00
+
+21:27:40     active/s passive/s    iseg/s    oseg/s
+21:27:41         0.00      0.00   8562.00 149431.00
+
+21:27:40     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:41         0.00      0.00      0.00      0.00      0.00
+
+21:27:41     active/s passive/s    iseg/s    oseg/s
+21:27:42         0.00      0.00   9578.00 152889.00
+
+21:27:41     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:42         0.00      0.00      0.00      0.00      0.00
+
+21:27:42     active/s passive/s    iseg/s    oseg/s
+21:27:43         0.00      0.00   8438.00 147608.00
+
+21:27:42     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:43         0.00      0.00      0.00      0.00      0.00
+
+21:27:43     active/s passive/s    iseg/s    oseg/s
+21:27:44         0.00      0.00   7844.00 145978.00
+
+21:27:43     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:44         0.00      0.00      0.00      0.00      0.00
+
+21:27:44     active/s passive/s    iseg/s    oseg/s
+21:27:45         0.00      0.00   8032.00 138875.00
+
+21:27:44     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:45         0.00      0.00      2.00      0.00      0.00
+
+21:27:45     active/s passive/s    iseg/s    oseg/s
+21:27:46         0.00      0.00   9350.00 149428.00
+
+21:27:45     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:46         0.00      0.00      0.00      0.00      0.00
+
+21:27:46     active/s passive/s    iseg/s    oseg/s
+21:27:47         0.00      0.00   8650.00 144881.00
+
+21:27:46     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:47         0.00      0.00    102.00      0.00      0.00
+
+21:27:47     active/s passive/s    iseg/s    oseg/s
+21:27:48         0.00      0.00   6422.00 141056.00
+
+21:27:47     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:48         0.00      0.00      0.00      0.00      0.00
+
+21:27:48     active/s passive/s    iseg/s    oseg/s
+21:27:49         1.00      0.00   8562.00 138268.00
+
+21:27:48     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:49         0.00      0.00      0.00      0.00      3.00
+
+21:27:49     active/s passive/s    iseg/s    oseg/s
+21:27:50         0.00      0.00   7272.00 141506.00
+
+21:27:49     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:50         0.00      0.00      0.00      0.00      0.00
+
+21:27:50     active/s passive/s    iseg/s    oseg/s
+21:27:51         1.00      1.00   5694.00 133063.00
+
+21:27:50     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:51         0.00      0.00      0.00      0.00      0.00
+
+21:27:51     active/s passive/s    iseg/s    oseg/s
+21:27:52         0.00      0.00   8141.00 145988.00
+
+21:27:51     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:52         0.00      0.00      0.00      0.00      0.00
+
+21:27:52     active/s passive/s    iseg/s    oseg/s
+21:27:53         0.00      0.00   8404.00 149076.00
+
+21:27:52     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:53         0.00      0.00      0.00      0.00      0.00
+
+21:27:53     active/s passive/s    iseg/s    oseg/s
+21:27:54         0.00      0.00   5833.00 147616.00
+
+21:27:53     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:54         0.00      0.00      0.00      0.00      0.00
+
+21:27:54     active/s passive/s    iseg/s    oseg/s
+21:27:55         0.00      0.00   8708.00 146517.00
+
+21:27:54     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:55         0.00      0.00      0.00      0.00      0.00
+
+21:27:55     active/s passive/s    iseg/s    oseg/s
+21:27:56         0.00      1.00   9072.00 171998.00
+
+21:27:55     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:56         0.00      0.00      0.00      0.00      0.00
+
+21:27:56     active/s passive/s    iseg/s    oseg/s
+21:27:57         0.00      0.00   8674.00 176912.00
+
+21:27:56     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:57         0.00      0.00      0.00      0.00      0.00
+
+21:27:57     active/s passive/s    iseg/s    oseg/s
+21:27:58         1.00      0.00   9459.00 178202.00
+
+21:27:57     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:58         0.00      0.00      0.00      0.00      2.00
+
+21:27:58     active/s passive/s    iseg/s    oseg/s
+21:27:59         0.00      0.00   7207.00 176739.00
+
+21:27:58     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:27:59         0.00      0.00      0.00      0.00      0.00
+
+21:27:59     active/s passive/s    iseg/s    oseg/s
+21:28:00         0.00      0.00  11389.00 191016.00
+
+21:27:59     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:00         0.00      0.00      0.00      0.00      0.00
+
+21:28:00     active/s passive/s    iseg/s    oseg/s
+21:28:01         0.00      0.00  10935.00 184097.00
+
+21:28:00     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:01         0.00      0.00      0.00      0.00      0.00
+
+21:28:01     active/s passive/s    iseg/s    oseg/s
+21:28:02         0.00      0.00   9419.00 184741.00
+
+21:28:01     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:02         0.00      0.00      0.00      0.00      0.00
+
+21:28:02     active/s passive/s    iseg/s    oseg/s
+21:28:03         0.00      0.00   9214.00 178730.00
+
+21:28:02     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:03         0.00      0.00      0.00      0.00      0.00
+
+21:28:03     active/s passive/s    iseg/s    oseg/s
+21:28:04         0.00      0.00   9866.00 183469.00
+
+21:28:03     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:04         0.00      0.00      0.00      0.00      0.00
+
+21:28:04     active/s passive/s    iseg/s    oseg/s
+21:28:05         0.00      0.00  10756.00 191106.00
+
+21:28:04     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:05         0.00      0.00      0.00      0.00      0.00
+
+21:28:05     active/s passive/s    iseg/s    oseg/s
+21:28:06         0.00      0.00   9692.00 180185.00
+
+21:28:05     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:06         0.00      0.00      0.00      0.00      0.00
+
+21:28:06     active/s passive/s    iseg/s    oseg/s
+21:28:07         0.00      0.00   7578.00 176910.00
+
+21:28:06     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:07         0.00      0.00      0.00      0.00      0.00
+
+21:28:07     active/s passive/s    iseg/s    oseg/s
+21:28:08         0.00      0.00   9614.00 183600.00
+
+21:28:07     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:08         0.00      0.00     50.00      0.00      0.00
+
+21:28:08     active/s passive/s    iseg/s    oseg/s
+21:28:09         0.00      0.00   6041.00 173321.00
+
+21:28:08     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:09         0.00      0.00    121.00      0.00      0.00
+
+21:28:09     active/s passive/s    iseg/s    oseg/s
+21:28:10         0.00      0.00   6672.00 186738.00
+
+21:28:09     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:10         0.00      0.00      0.00      0.00      0.00
+
+21:28:10     active/s passive/s    iseg/s    oseg/s
+21:28:11         0.00      1.00  10389.00 181101.00
+
+21:28:10     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:11         0.00      0.00     39.00      0.00      0.00
+
+21:28:11     active/s passive/s    iseg/s    oseg/s
+21:28:12         0.00      0.00  10546.00 179822.00
+
+21:28:11     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:12         0.00      0.00      6.00      0.00      0.00
+
+21:28:12     active/s passive/s    iseg/s    oseg/s
+21:28:13         0.00      0.00   9480.00 180914.00
+
+21:28:12     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:13         0.00      0.00    100.00      0.00      0.00
+
+21:28:13     active/s passive/s    iseg/s    oseg/s
+21:28:14         3.00      0.00   9947.00 180213.00
+
+21:28:13     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:14         0.00      1.00      0.00      0.00      1.00
+
+21:28:14     active/s passive/s    iseg/s    oseg/s
+21:28:15         0.00      0.00  14681.00 177455.00
+
+21:28:14     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:15         0.00      0.00      3.00      0.00      0.00
+
+21:28:15     active/s passive/s    iseg/s    oseg/s
+21:28:16         0.00      0.00  12053.00 174362.00
+
+21:28:15     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:16         0.00      0.00      0.00      0.00      0.00
+
+21:28:16     active/s passive/s    iseg/s    oseg/s
+21:28:17         0.00      0.00   9238.00 177456.00
+
+21:28:16     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:17         0.00      0.00      6.00      0.00      0.00
+
+21:28:17     active/s passive/s    iseg/s    oseg/s
+21:28:18         0.00      0.00  13361.00 186922.00
+
+21:28:17     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:18         0.00      0.00      0.00      0.00      0.00
+
+21:28:18     active/s passive/s    iseg/s    oseg/s
+21:28:19         0.00      0.00   9667.00 172731.00
+
+21:28:18     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:19         0.00      0.00      0.00      0.00      0.00
+
+21:28:19     active/s passive/s    iseg/s    oseg/s
+21:28:20         0.00      0.00  10305.00 198569.00
+
+21:28:19     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:20         0.00      0.00      0.00      0.00      0.00
+
+21:28:20     active/s passive/s    iseg/s    oseg/s
+21:28:21         0.00      0.00  14700.00 180367.00
+
+21:28:20     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:21         0.00      0.00      1.00      0.00      0.00
+
+21:28:21     active/s passive/s    iseg/s    oseg/s
+21:28:22         0.00      0.00  13870.00 173452.00
+
+21:28:21     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:22         0.00      0.00      0.00      0.00      0.00
+
+21:28:22     active/s passive/s    iseg/s    oseg/s
+21:28:23         0.00      0.00  12647.00 188210.00
+
+21:28:22     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:23         0.00      0.00      0.00      0.00      0.00
+
+21:28:23     active/s passive/s    iseg/s    oseg/s
+21:28:24         0.00      0.00  14071.00 183684.00
+
+21:28:23     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:24         0.00      0.00      0.00      0.00      0.00
+
+21:28:24     active/s passive/s    iseg/s    oseg/s
+21:28:25         0.00      0.00  14469.00 183781.00
+
+21:28:24     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:25         0.00      0.00     44.00      0.00      0.00
+
+21:28:25     active/s passive/s    iseg/s    oseg/s
+21:28:26         0.00      0.00  14102.00 209987.00
+
+21:28:25     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:26         0.00      0.00      0.00      0.00      0.00
+
+21:28:26     active/s passive/s    iseg/s    oseg/s
+21:28:27         0.00      0.00  11872.00 219530.00
+
+21:28:26     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:27         0.00      0.00      0.00      0.00      1.00
+
+21:28:27     active/s passive/s    iseg/s    oseg/s
+21:28:28         0.00      0.00  11694.00 213523.00
+
+21:28:27     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:28         0.00      0.00     45.00      0.00      0.00
+
+21:28:28     active/s passive/s    iseg/s    oseg/s
+21:28:29         0.00      0.00  12766.00 224811.00
+
+21:28:28     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:29         0.00      0.00      0.00      0.00      0.00
+
+21:28:29     active/s passive/s    iseg/s    oseg/s
+21:28:30         0.00      0.00  12137.00 217678.00
+
+21:28:29     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:30         0.00      0.00      0.00      0.00      0.00
+
+21:28:30     active/s passive/s    iseg/s    oseg/s
+21:28:31         0.00      0.00  16171.00 223866.00
+
+21:28:30     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:31         0.00      0.00      0.00      0.00      0.00
+
+21:28:31     active/s passive/s    iseg/s    oseg/s
+21:28:32         0.00      0.00   9848.00 213856.00
+
+21:28:31     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:32         0.00      0.00      0.00      0.00      0.00
+
+21:28:32     active/s passive/s    iseg/s    oseg/s
+21:28:33         0.00      0.00  11294.00 218044.00
+
+21:28:32     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:33         0.00      0.00     44.00      0.00      0.00
+
+21:28:33     active/s passive/s    iseg/s    oseg/s
+21:28:34         0.00      0.00  10428.00 214773.00
+
+21:28:33     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:34         0.00      0.00      0.00      0.00      0.00
+
+21:28:34     active/s passive/s    iseg/s    oseg/s
+21:28:35         0.00      0.00   9979.00 224593.00
+
+21:28:34     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:35         0.00      0.00      0.00      0.00      0.00
+
+21:28:35     active/s passive/s    iseg/s    oseg/s
+21:28:36         3.00      0.00  11407.00 217354.00
+
+21:28:35     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:36         0.00      0.00      0.00      0.00      2.00
+
+21:28:36     active/s passive/s    iseg/s    oseg/s
+21:28:37         2.00      0.00   9628.00 218277.00
+
+21:28:36     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:37         0.00      0.00      0.00      0.00      0.00
+
+21:28:37     active/s passive/s    iseg/s    oseg/s
+21:28:38         0.00      0.00  15188.00 221318.00
+
+21:28:37     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:38         0.00      0.00      0.00      0.00      0.00
+
+21:28:38     active/s passive/s    iseg/s    oseg/s
+21:28:39         0.00      1.00  12941.00 223512.00
+
+21:28:38     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:39         0.00      0.00      0.00      0.00      0.00
+
+21:28:39     active/s passive/s    iseg/s    oseg/s
+21:28:40         0.00      0.00  11398.00 212401.00
+
+21:28:39     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:40         0.00      0.00      0.00      0.00      0.00
+
+21:28:40     active/s passive/s    iseg/s    oseg/s
+21:28:41         0.00      0.00  11260.00 209126.00
+
+21:28:40     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:41         0.00      0.00      0.00      0.00      0.00
+
+21:28:41     active/s passive/s    iseg/s    oseg/s
+21:28:42         0.00      0.00   9304.00 218770.00
+
+21:28:41     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:42         0.00      0.00     89.00      0.00      0.00
+
+21:28:42     active/s passive/s    iseg/s    oseg/s
+21:28:43         0.00      0.00   9629.00 203118.00
+
+21:28:42     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:43         0.00      0.00      0.00      0.00      0.00
+
+21:28:43     active/s passive/s    iseg/s    oseg/s
+21:28:44         0.00      0.00   6155.00 216774.00
+
+21:28:43     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:44         0.00      0.00      0.00      0.00      0.00
+
+21:28:44     active/s passive/s    iseg/s    oseg/s
+21:28:45         0.00      0.00   7466.00 215858.00
+
+21:28:44     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:45         0.00      0.00      0.00      0.00      0.00
+
+21:28:45     active/s passive/s    iseg/s    oseg/s
+21:28:46         0.00      0.00   9554.00 223096.00
+
+21:28:45     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:46         0.00      0.00      0.00      0.00      0.00
+
+21:28:46     active/s passive/s    iseg/s    oseg/s
+21:28:47         0.00      0.00   8488.00 207712.00
+
+21:28:46     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:47         0.00      0.00      0.00      0.00      0.00
+
+21:28:47     active/s passive/s    iseg/s    oseg/s
+21:28:48         2.00      1.00  10446.00 226019.00
+
+21:28:47     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:48         0.00      0.00      0.00      0.00      0.00
+
+21:28:48     active/s passive/s    iseg/s    oseg/s
+21:28:49         0.00      0.00   9748.00 227573.00
+
+21:28:48     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:49         0.00      0.00      0.00      0.00      2.00
+
+21:28:49     active/s passive/s    iseg/s    oseg/s
+21:28:50         0.00      0.00  11876.00 211855.00
+
+21:28:49     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:50         0.00      0.00      0.00      0.00      0.00
+
+21:28:50     active/s passive/s    iseg/s    oseg/s
+21:28:51         0.00      0.00   8906.00 218408.00
+
+21:28:50     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:51         0.00      0.00      0.00      0.00      0.00
+
+21:28:51     active/s passive/s    iseg/s    oseg/s
+21:28:52         0.00      0.00  10730.00 220044.00
+
+21:28:51     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:52         0.00      0.00      0.00      0.00      0.00
+
+21:28:52     active/s passive/s    iseg/s    oseg/s
+21:28:53         1.00      1.00   9871.00 228795.00
+
+21:28:52     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:53         0.00      0.00      0.00      0.00      0.00
+
+21:28:53     active/s passive/s    iseg/s    oseg/s
+21:28:54         0.00      0.00  10295.00 226255.00
+
+21:28:53     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:54         0.00      0.00      0.00      0.00      0.00
+
+21:28:54     active/s passive/s    iseg/s    oseg/s
+21:28:55         0.00      0.00  10694.00 216968.00
+
+21:28:54     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:55         0.00      0.00      0.00      0.00      0.00
+
+21:28:55     active/s passive/s    iseg/s    oseg/s
+21:28:56         0.00      0.00  13045.00 266636.00
+
+21:28:55     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:56         0.00      0.00      0.00      0.00      0.00
+
+21:28:56     active/s passive/s    iseg/s    oseg/s
+21:28:57         0.00      0.00  10993.00 292479.00
+
+21:28:56     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:57         0.00      0.00      0.00      0.00      0.00
+
+21:28:57     active/s passive/s    iseg/s    oseg/s
+21:28:58         0.00      0.00  12750.00 287202.00
+
+21:28:57     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:58         0.00      0.00      0.00      0.00      0.00
+
+21:28:58     active/s passive/s    iseg/s    oseg/s
+21:28:59         0.00      0.00  12554.00 297037.00
+
+21:28:58     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:28:59         0.00      0.00      0.00      0.00      0.00
+
+21:28:59     active/s passive/s    iseg/s    oseg/s
+21:29:00         0.00      0.00  16432.00 291754.00
+
+21:28:59     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:00         0.00      0.00      1.00      0.00      0.00
+
+21:29:00     active/s passive/s    iseg/s    oseg/s
+21:29:01         0.00      0.00  12677.00 287384.00
+
+21:29:00     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:01         0.00      0.00      0.00      0.00      0.00
+
+21:29:01     active/s passive/s    iseg/s    oseg/s
+21:29:02         0.00      0.00  12271.00 279739.00
+
+21:29:01     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:02         0.00      0.00      0.00      0.00      0.00
+
+21:29:02     active/s passive/s    iseg/s    oseg/s
+21:29:03         0.00      0.00  14922.00 294300.00
+
+21:29:02     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:03         0.00      0.00      0.00      0.00      0.00
+
+21:29:03     active/s passive/s    iseg/s    oseg/s
+21:29:04         1.00    262.00  58672.00 271307.00
+
+21:29:03     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:04         0.00      0.00  26583.00      0.00      0.00
+
+21:29:04     active/s passive/s    iseg/s    oseg/s
+21:29:05         0.00    224.00 115773.00 263753.00
+
+21:29:04     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:05         0.00      0.00  47869.00      0.00      0.00
+
+21:29:05     active/s passive/s    iseg/s    oseg/s
+21:29:06         0.00    232.00 123650.00 259776.00
+
+21:29:05     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:06         0.00      2.00  49548.00      0.00      0.00
+
+21:29:06     active/s passive/s    iseg/s    oseg/s
+21:29:07         0.00    307.00 132895.00 270100.00
+
+21:29:06     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:07         0.00      7.00  52131.00      0.00      0.00
+
+21:29:07     active/s passive/s    iseg/s    oseg/s
+21:29:08         0.00    292.00 133606.00 266618.00
+
+21:29:07     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:08         0.00      7.00  55316.00      0.00      0.00
+
+21:29:08     active/s passive/s    iseg/s    oseg/s
+21:29:09         0.00    319.00 133438.00 265605.00
+
+21:29:08     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:09         0.00     25.00  57890.00      0.00      0.00
+
+21:29:09     active/s passive/s    iseg/s    oseg/s
+21:29:10         0.00    285.00 136211.00 264912.00
+
+21:29:09     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:10         0.00     59.00  58202.00      0.00      0.00
+
+21:29:10     active/s passive/s    iseg/s    oseg/s
+21:29:11         0.00    394.00 139869.00 266022.00
+
+21:29:10     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:11         0.00     82.00  58272.00      0.00      0.00
+
+21:29:11     active/s passive/s    iseg/s    oseg/s
+21:29:12         0.00    339.00 140281.00 265160.00
+
+21:29:11     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:12         0.00     58.00  58820.00      0.00      0.00
+
+21:29:12     active/s passive/s    iseg/s    oseg/s
+21:29:13         0.00    330.00 140062.00 265136.00
+
+21:29:12     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:13         0.00    107.00  59066.00      0.00      0.00
+
+21:29:13     active/s passive/s    iseg/s    oseg/s
+21:29:14         0.00    395.00 141655.00 265586.00
+
+21:29:13     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:14         0.00    124.00  59531.00      0.00      0.00
+
+21:29:14     active/s passive/s    iseg/s    oseg/s
+21:29:15         0.00    320.00 140737.00 265775.00
+
+21:29:14     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:15         0.00    109.00  57911.00      0.00      0.00
+
+21:29:15     active/s passive/s    iseg/s    oseg/s
+21:29:16         0.00    260.00 140043.00 264401.00
+
+21:29:15     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:16         1.00    130.00  58340.00      0.00      0.00
+
+21:29:16     active/s passive/s    iseg/s    oseg/s
+21:29:17         0.00    322.00 136993.00 265702.00
+
+21:29:16     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:17         0.00    103.00  57330.00      0.00      0.00
+
+21:29:17     active/s passive/s    iseg/s    oseg/s
+21:29:18         0.00    261.00 134250.00 265491.00
+
+21:29:17     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:18         0.00    139.00  56259.00      0.00      0.00
+
+21:29:18     active/s passive/s    iseg/s    oseg/s
+21:29:19         0.00    356.00 136052.00 265478.00
+
+21:29:18     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:19         0.00    101.00  57918.00      0.00      0.00
+
+21:29:19     active/s passive/s    iseg/s    oseg/s
+21:29:20         0.00    344.00 137324.00 265559.00
+
+21:29:19     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:20         0.00    129.00  58415.00      0.00      0.00
+
+21:29:20     active/s passive/s    iseg/s    oseg/s
+21:29:21         0.00    249.00 139576.00 264029.00
+
+21:29:20     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:21         0.00    112.00  57612.00      0.00      0.00
+
+21:29:21     active/s passive/s    iseg/s    oseg/s
+21:29:22         0.00    324.00 138117.00 265912.00
+
+21:29:21     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:22         0.00    100.00  57251.00      0.00      0.00
+
+21:29:22     active/s passive/s    iseg/s    oseg/s
+21:29:23         0.00    363.00 139162.00 265800.00
+
+21:29:22     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:23         0.00    107.00  57735.00      0.00      0.00
+
+21:29:23     active/s passive/s    iseg/s    oseg/s
+21:29:24         0.00    199.01 138264.36 261362.38
+
+21:29:23     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:24         0.00    112.87  56772.28      0.00      0.00
+
+21:29:24     active/s passive/s    iseg/s    oseg/s
+21:29:25         0.00    333.00 135733.00 266060.00
+
+21:29:24     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:25         0.00    107.00  57365.00      0.00      0.00
+
+21:29:25     active/s passive/s    iseg/s    oseg/s
+21:29:26         0.00    682.00 142545.00 268781.00
+
+21:29:25     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:26         0.00     75.00  62705.00      0.00      0.00
+
+21:29:26     active/s passive/s    iseg/s    oseg/s
+21:29:27         0.00    849.00 151292.00 269524.00
+
+21:29:26     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:27         0.00     87.00  67385.00      0.00      0.00
+
+21:29:27     active/s passive/s    iseg/s    oseg/s
+21:29:28         1.00    948.00 155813.00 270245.00
+
+21:29:27     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:28         0.00    189.00  68906.00      0.00      3.00
+
+21:29:28     active/s passive/s    iseg/s    oseg/s
+21:29:29         0.00   1004.00 161658.00 269740.00
+
+21:29:28     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:29         0.00    297.00  71977.00      0.00      0.00
+
+21:29:29     active/s passive/s    iseg/s    oseg/s
+21:29:30         0.00   1137.00 163951.00 271626.00
+
+21:29:29     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:30         0.00    397.00  73019.00      0.00      0.00
+
+21:29:30     active/s passive/s    iseg/s    oseg/s
+21:29:31         0.00    996.00 164731.00 270120.00
+
+21:29:30     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:31         0.00    503.00  72006.00      0.00      0.00
+
+21:29:31     active/s passive/s    iseg/s    oseg/s
+21:29:32         0.00   1045.00 164744.00 270246.00
+
+21:29:31     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:32         0.00    642.00  72179.00      0.00      0.00
+
+21:29:32     active/s passive/s    iseg/s    oseg/s
+21:29:33         0.00    948.00 162741.00 268783.00
+
+21:29:32     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:33         0.00    636.00  72414.00      0.00      0.00
+
+21:29:33     active/s passive/s    iseg/s    oseg/s
+21:29:34         0.00    916.00 165521.00 268469.00
+
+21:29:33     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:34         0.00    622.00  71297.00      0.00      0.00
+
+21:29:34     active/s passive/s    iseg/s    oseg/s
+21:29:35         0.00   1047.00 163426.00 271027.00
+
+21:29:34     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:35         0.00    650.00  71150.00      0.00      0.00
+
+21:29:35     active/s passive/s    iseg/s    oseg/s
+21:29:36         3.00    913.00 160889.00 268879.00
+
+21:29:35     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:36         0.00    648.00  70938.00      0.00      1.00
+
+21:29:36     active/s passive/s    iseg/s    oseg/s
+21:29:37         1.00   1015.00 163263.00 270065.00
+
+21:29:36     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:37         0.00    644.00  72455.00      0.00      0.00
+
+21:29:37     active/s passive/s    iseg/s    oseg/s
+21:29:38         1.00    973.00 164695.00 269249.00
+
+21:29:37     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:38         0.00    778.00  71590.00      0.00      0.00
+
+21:29:38     active/s passive/s    iseg/s    oseg/s
+21:29:39         0.00   1002.00 163643.00 269838.00
+
+21:29:38     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:39         0.00    609.00  72481.00      0.00      0.00
+
+21:29:39     active/s passive/s    iseg/s    oseg/s
+21:29:40         0.00   1088.00 163523.00 270731.00
+
+21:29:39     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:40         0.00    655.00  72677.00      0.00      0.00
+
+21:29:40     active/s passive/s    iseg/s    oseg/s
+21:29:41         0.00   1038.00 164042.00 269786.00
+
+21:29:40     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:41         0.00    682.00  72726.00      0.00      0.00
+
+21:29:41     active/s passive/s    iseg/s    oseg/s
+21:29:42         0.00   1072.00 164912.00 269878.00
+
+21:29:41     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:42         0.00    699.00  73665.00      0.00      0.00
+
+21:29:42     active/s passive/s    iseg/s    oseg/s
+21:29:43         0.00    964.00 164856.00 269668.00
+
+21:29:42     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:43         0.00    659.00  72442.00      0.00      0.00
+
+21:29:43     active/s passive/s    iseg/s    oseg/s
+21:29:44         0.00   1058.00 163067.00 270160.00
+
+21:29:43     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:44         0.00    730.00  73192.00      0.00      0.00
+
+21:29:44     active/s passive/s    iseg/s    oseg/s
+21:29:45         0.00    962.00 166279.00 269408.00
+
+21:29:44     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:45         0.00    745.00  71216.00      0.00      0.00
+
+21:29:45     active/s passive/s    iseg/s    oseg/s
+21:29:46         0.00    980.00 165292.00 269779.00
+
+21:29:45     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:46         0.00    706.00  71837.00      0.00      0.00
+
+21:29:46     active/s passive/s    iseg/s    oseg/s
+21:29:47         0.00    973.00 163198.00 269348.00
+
+21:29:46     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:47         0.00    688.00  71707.00      0.00      0.00
+
+21:29:47     active/s passive/s    iseg/s    oseg/s
+21:29:48         0.00    930.00 164122.00 268750.00
+
+21:29:47     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:48         0.00    758.00  71669.00      0.00      0.00
+
+21:29:48     active/s passive/s    iseg/s    oseg/s
+21:29:49         1.00    866.00 160384.00 268828.00
+
+21:29:48     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:49         0.00    635.00  70549.00      0.00      3.00
+
+21:29:49     active/s passive/s    iseg/s    oseg/s
+21:29:50         0.00    987.00 161611.00 269455.00
+
+21:29:49     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:50         0.00    690.00  71458.00      0.00      0.00
+
+21:29:50     active/s passive/s    iseg/s    oseg/s
+21:29:51         0.00    979.00 162338.00 269869.00
+
+21:29:50     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:51         0.00    690.00  70594.00      0.00      0.00
+
+21:29:51     active/s passive/s    iseg/s    oseg/s
+21:29:52         0.00   1021.00 163073.00 270126.00
+
+21:29:51     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:52         0.00    613.00  71784.00      0.00      0.00
+
+21:29:52     active/s passive/s    iseg/s    oseg/s
+21:29:53         0.00    948.00 163220.00 269630.00
+
+21:29:52     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:53         0.00    716.00  71174.00      0.00      0.00
+
+21:29:53     active/s passive/s    iseg/s    oseg/s
+21:29:54         0.00   1025.00 161179.00 270375.00
+
+21:29:53     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:54         0.00    643.00  71482.00      0.00      0.00
+
+21:29:54     active/s passive/s    iseg/s    oseg/s
+21:29:55         1.00   1068.00 164650.00 270394.00
+
+21:29:54     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:55         0.00    689.00  73648.00      0.00      0.00
+
+21:29:55     active/s passive/s    iseg/s    oseg/s
+21:29:56         0.00    218.00 159756.00 254106.00
+
+21:29:55     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:56         0.00    920.00  57739.00      0.00      0.00
+
+21:29:56     active/s passive/s    iseg/s    oseg/s
+21:29:57         1.00      1.00  31125.00  65348.00
+
+21:29:56     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:57         0.00    505.00   7373.00      0.00      0.00
+
+21:29:57     active/s passive/s    iseg/s    oseg/s
+21:29:58         0.00      0.00    219.00     11.00
+
+21:29:57     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:58         0.00    166.00    211.00      0.00      0.00
+
+21:29:58     active/s passive/s    iseg/s    oseg/s
+21:29:59         1.00      0.00    159.00     29.00
+
+21:29:58     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:29:59         0.00    104.00    132.00      0.00      1.00
+
+21:29:59     active/s passive/s    iseg/s    oseg/s
+21:30:00         3.00      0.00    166.00    106.00
+
+21:29:59     atmptf/s  estres/s retrans/s isegerr/s   orsts/s
+21:30:00         0.00     56.00     68.00      0.00      0.00

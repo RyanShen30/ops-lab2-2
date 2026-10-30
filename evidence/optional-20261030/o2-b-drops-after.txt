@@ -1,0 +1,10 @@
+# 实验后在 B 上记录（2026-10-30T21:31:23+08:00）：开机于 2026-10-30 17:11:07，计数为开机以来累计
+eth0 rx_bytes 60387336677 rx_drop 0 rx_fifo 0
+softnet dropped 0 time_squeeze 5
+网卡队列: rx-0 rx-1 tx-0 tx-1 
+IpInDiscards                    0                  0.0
+TcpExtTCPBacklogDrop            0                  0.0
+TcpExtTCPOFOQueue               1643476            0.0
+TcpExtTCPOFODrop                0                  0.0
+TcpExtTCPZeroWindowDrop         0                  0.0
+TcpExtTCPRcvQDrop               0                  0.0

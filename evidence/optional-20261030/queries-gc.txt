@@ -1,0 +1,15 @@
+# 选做 O1：每个阶段的 GC 与内存（scripts/optional-run.py 用 promsteps 执行，结果写进 evidence/optional-20261030/o1-gogc*-gc.csv）
+# 每行：名字  PromQL。${window} 是阶段窗口（阶段时长减去开头 5 s），${route} 是压测的接口。
+# 每秒 GC 次数
+gc_cycles_per_s     rate(go_gc_cycles_total{job="enrolld"}[${window}])
+# GC 平均占用几个核；以及 GC 占进程 CPU 的比例
+gc_cpu_cores        rate(go_gc_cpu_seconds_total{job="enrolld"}[${window}])
+gc_cpu_share        rate(go_gc_cpu_seconds_total{job="enrolld"}[${window}]) / rate(process_cpu_seconds_total{job="enrolld"}[${window}])
+# 进程 CPU（核）与每请求 CPU（毫秒）
+cpu_cores           rate(process_cpu_seconds_total{job="enrolld"}[${window}])
+cpu_ms_per_req      1000 * sum(rate(process_cpu_seconds_total{job="enrolld"}[${window}])) / sum(rate(http_requests_total{job="enrolld",route="${route}"}[${window}]))
+# 常驻内存（MiB）：窗口内最大值和平均值
+rss_max_mb          max_over_time(process_resident_memory_bytes{job="enrolld"}[${window}]) / 1048576
+rss_avg_mb          avg_over_time(process_resident_memory_bytes{job="enrolld"}[${window}]) / 1048576
+# 服务端 p99（毫秒）
+server_p99_ms       1000 * histogram_quantile(0.99, sum by (le) (rate(http_request_duration_seconds_bucket{job="enrolld",route="${route}"}[${window}])))

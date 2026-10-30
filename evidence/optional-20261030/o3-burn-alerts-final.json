@@ -1,0 +1,1 @@
+{"status":"success","data":{"alerts":[{"labels":{"alertname":"EnrolldReadSLOSlowBurn","severity":"ticket"},"annotations":{"description":"过去 6 小时 45.7% 的读请求未在 50 ms 内成功返回，燃烧率超过 6；按此速度约 5 天耗尽 30 天预算。","summary":"读路径 SLO 预算持续燃烧"},"state":"firing","activeAt":"2026-10-30T09:08:06.616316969Z","value":"4.5699190573010595e-01"}]}}

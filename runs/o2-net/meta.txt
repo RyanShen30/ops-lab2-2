@@ -1,0 +1,25 @@
+名字: o2-net
+开始: 2026-10-30T21:24:54+08:00（A）；2026-10-30T21:24:55+08:00（B）
+A: ecs-59c8，Linux 6.8.0-147-generic x86_64，4 个逻辑核，网卡 eth0 驱动 virtio_net
+B: ecs-5355-5d3f，Linux 6.8.0-136-generic x86_64，4 个逻辑核，网卡 eth0 驱动 virtio_net
+enrolld（A）: pid 1372690，绑定的核 2,3，监听 A 的内网地址
+loadgen（B）: 不绑核，GOMAXPROCS 取 B 的全部核
+仓库提交: c8f65c2，未提交的改动 11 处
+压测命令（B）: loadgen -url http://<A>/api/export?kb=256 -rates 50,100,200,400,600,800,1000,1200,1600,2000,2500,3000 -step 30s
+enrolld /config:
+{
+  "addr": "192.168.0.227:18080",
+  "work": 200000,
+  "pool": 4,
+  "db_ms": 10,
+  "pool_timeout": "1s",
+  "sync": "each",
+  "sync_interval": "1s",
+  "data": "data/o2-net",
+  "go_version": "go1.26.9",
+  "gomaxprocs": 2,
+  "gogc": "",
+  "pid": 1372690,
+  "started": "2026-10-30T21:24:54+08:00"
+}
+结束: 2026-10-30T21:30:05+08:00

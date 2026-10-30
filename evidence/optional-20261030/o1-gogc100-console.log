@@ -1,0 +1,23 @@
+== loadgen（结果写进 runs/o1-gogc100/）
+loadgen：GET http://127.0.0.1:18080/api/report?mb=4，3 个阶段 × 30s，到达过程 poisson，超时 2s，GOMAXPROCS=2
+阶段 1/3：目标 100 请求/秒，已发出 3023，已成功 3023，在途 0，压测机 CPU 2%
+阶段 2/3：目标 100 请求/秒，已发出 2966，已成功 2966，在途 0，压测机 CPU 2%
+阶段 3/3：目标 100 请求/秒，已发出 2984，已成功 2984，在途 0，压测机 CPU 2%
+等待在途的 0 个请求结束（最多 2s）…
+step  target_rps  sent    ok  error_rate  mean_ms  p50_ms  p99_ms  max_ms  slo_good  lag_p99_ms  gen_cpu_pct  
+   1         100  3023  3023      0.0000     1.60    1.45    3.16    4.93    1.0000        1.06            2  
+   2         100  2966  2966      0.0000     1.60    1.45    3.18    3.86    1.0000        1.06            2  
+   3         100  2984  2984      0.0000     1.62    1.47    3.16    4.84    1.0000        1.06            2  
+ all              8973  8973      0.0000     1.60    1.46    3.17    4.93    1.0000        1.06            2  
+== 按阶段查询 Prometheus
+-- red.csv
+step  target_rps  server_rps  server_error_rate  server_p99_ms  server_mean_ms  inflight_avg  cpu_cores  cpu_ms_per_req  cpu_wait_threads  sched_wait_p99_ms  pool_in_use_avg  pool_wait_p99_ms  db_query_mean_ms  fsync_per_s  fsync_mean_ms  fsync_p99_ms  batch_mean  goroutines_max  server_slo_good
+1     100         101.875     0                  4.31449        0.893545        0.2           0.134735   1.32255         0.0361995         0.528289           0                NaN               NaN               0            NaN            NaN           NaN         11              1
+2     100         99.25       0                  3.99352        0.889176        0.04          0.1308     1.31789         0.0334328         0.701032           0                NaN               NaN               0            NaN            NaN           NaN         11              1
+3     100         98.2917     0                  4.14735        0.907784        0.12          0.133251   1.35567         0.0355353         0.428066           0                NaN               NaN               0            NaN            NaN           NaN         11              1
+-- use.csv
+step  target_rps  svc_cpu_busy  all_cpu_busy  cpu_steal  cpu_iowait  procs_running_avg  cpu_psi_some  mem_available_min_mb  swap_in_per_s  disk_w_per_s  disk_wkb_per_s  disk_w_await_ms  disk_f_per_s  disk_f_await_ms  disk_aqu_sz  disk_util
+1     100         0.0785        0.05675       0          0           1                  0.0173666     6151.27               0              6.05          72.2            0.578512         0.4           0                0.0035       0.00065
+2     100         0.07375       0.053875      0          0.00025     1.2                0.0159038     6146.78               0              3.8           34.6            0.684211         0.4           0.125            0.0026       0.00055
+3     100         0.07675       0.059375      0          0           1.6                0.0182867     6148.44               0              5.15          110             0.640777         0.4           0                0.0034       0.00065
+完成：runs/o1-gogc100

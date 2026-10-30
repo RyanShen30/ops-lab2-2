@@ -1,0 +1,48 @@
+{
+  "name": "o1-gogc400",
+  "prepared_at": "2026-10-30T17:21:56.325963+08:00",
+  "commands": [
+    [
+      "taskset",
+      "-c",
+      "0-1",
+      "tools/node_exporter",
+      "--web.listen-address=127.0.0.1:19100"
+    ],
+    [
+      "taskset",
+      "-c",
+      "0-1",
+      "tools/prometheus",
+      "--config.file=evidence/optional-20261030/o1-gogc400-prometheus.yml",
+      "--storage.tsdb.path=/dev/shm/lab2-prom-1001-o1-gogc400",
+      "--web.listen-address=127.0.0.1:19090"
+    ],
+    [
+      "taskset",
+      "-c",
+      "2-3",
+      "bin/enrolld",
+      "-addr",
+      "127.0.0.1:18080",
+      "-data",
+      "data/o1-gogc400"
+    ]
+  ],
+  "gogc": 400,
+  "load_command": [
+    "scripts/run.sh",
+    "o1-gogc400",
+    "-url",
+    "http://127.0.0.1:18080/api/report?mb=4",
+    "-rates",
+    "100,100,100"
+  ],
+  "prediction": "evidence/optional-20261030/o1-prediction.md",
+  "prediction_sha256": "c83134a28036f198fc7e2088a1abb92fb9227c668b324b41302feef9479c471f",
+  "prediction_mtime": "2026-10-30T17:05:00.316774+08:00",
+  "commit": "c8f65c288af8aacaa19540a7593c76abd072eeca",
+  "measurement_started_at": "2026-10-30T17:22:14.358799+08:00",
+  "measurement_finished_at": "2026-10-30T17:23:45.485794+08:00",
+  "cleanup_at": "2026-10-30T17:23:45.515351+08:00"
+}

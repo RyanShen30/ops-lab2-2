@@ -1,0 +1,28 @@
+名字: o3-burn
+开始: 2026-10-30T17:04:54+08:00
+主机: Linux 6.8.0-147-generic x86_64
+CPU: 4 个逻辑核；General Purpose Processor
+内存: 7556 MiB，available 6209 MiB
+数据目录: data/o3-burn → /dev/vda1（ext4），统计的磁盘: vda
+enrolld: pid 1313566，绑定的核 2,3
+loadgen: 绑定的核 0-1
+接口: /api/courses/{id}；SLO 阈值 0.05s
+promsteps 变量: route=/api/courses/{id} slo=0.05 cpus=2|3 disk=vda
+仓库提交: c8f65c2，未提交的改动 6 处
+压测命令: bin/loadgen '-url' 'http://127.0.0.1:18080/api/courses/1' '-step' '60s' '-rates' '200,200,200,420,420,420,420,200,200,200,200,200,200,200'
+enrolld /config:
+{
+  "addr": "127.0.0.1:18080",
+  "work": 200000,
+  "pool": 4,
+  "db_ms": 10,
+  "pool_timeout": "1s",
+  "sync": "group",
+  "sync_interval": "1s",
+  "data": "data/o3-burn",
+  "go_version": "go1.26.9",
+  "gomaxprocs": 2,
+  "gogc": "",
+  "pid": 1313566,
+  "started": "2026-10-30T17:04:34+08:00"
+}

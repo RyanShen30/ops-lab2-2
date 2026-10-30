@@ -1,0 +1,55 @@
+# 选做 O3：读路径 SLO 的燃烧率告警（L-08 第 21 页），由 deploy/prometheus.yml 的 rule_files 引用。
+#
+# SLO：30 天内 99% 的读请求（GET /api/courses/{id}）在 50 ms 内成功返回，错误预算 1%。
+# SLI 在服务端测：code="200" 且耗时 ≤ 50 ms（直方图 le="0.05" 桶）的请求 ÷ 全部请求。
+# 服务端看不到客户端超时、没进处理函数就失败的请求（见 LAB2.md 问题 4），所以这是用户体验的近似值。
+#
+# 多窗口、多燃烧率（Google SRE Workbook 第 5 章）：
+#   长窗口确认问题足够大，短窗口确认问题还在持续，二者同时成立才告警；问题消失后短窗口很快回落，告警随之恢复。
+#   page   ：1 h 与 5 m 的燃烧率都 > 14.4（1 小时烧掉 30 天预算的 2%）
+#   ticket ：6 h 与 30 m 的燃烧率都 > 6  （6 小时烧掉 30 天预算的 5%）
+# 燃烧率 = 错误比例 ÷ 错误预算（0.01），所以阈值写成 14.4 * 0.01、6 * 0.01。
+groups:
+  - name: enrolld-read-slo
+    rules:
+      # 各窗口的错误比例 = 1 − 达标比例。没有达标请求时分子为空，用 or vector(0) 补 0；没有请求时分母为 0，结果是 NaN，比较为假，不会告警。
+      - record: enrolld:read_slo_error_ratio:rate5m
+        expr: |
+          1 - (sum(rate(http_request_duration_seconds_bucket{job="enrolld",route="/api/courses/{id}",code="200",le="0.05"}[5m])) or vector(0))
+            / sum(rate(http_requests_total{job="enrolld",route="/api/courses/{id}"}[5m]))
+      - record: enrolld:read_slo_error_ratio:rate30m
+        expr: |
+          1 - (sum(rate(http_request_duration_seconds_bucket{job="enrolld",route="/api/courses/{id}",code="200",le="0.05"}[30m])) or vector(0))
+            / sum(rate(http_requests_total{job="enrolld",route="/api/courses/{id}"}[30m]))
+      - record: enrolld:read_slo_error_ratio:rate1h
+        expr: |
+          1 - (sum(rate(http_request_duration_seconds_bucket{job="enrolld",route="/api/courses/{id}",code="200",le="0.05"}[1h])) or vector(0))
+            / sum(rate(http_requests_total{job="enrolld",route="/api/courses/{id}"}[1h]))
+      - record: enrolld:read_slo_error_ratio:rate6h
+        expr: |
+          1 - (sum(rate(http_request_duration_seconds_bucket{job="enrolld",route="/api/courses/{id}",code="200",le="0.05"}[6h])) or vector(0))
+            / sum(rate(http_requests_total{job="enrolld",route="/api/courses/{id}"}[6h]))
+
+      - alert: EnrolldReadSLOFastBurn
+        expr: |
+          enrolld:read_slo_error_ratio:rate1h > (14.4 * 0.01)
+          and
+          enrolld:read_slo_error_ratio:rate5m > (14.4 * 0.01)
+        for: 1m
+        labels:
+          severity: page
+        annotations:
+          summary: 读路径 SLO 预算快速燃烧
+          description: 过去 1 小时 {{ $value | humanizePercentage }} 的读请求未在 50 ms 内成功返回，燃烧率超过 14.4；按此速度约 2 天耗尽 30 天预算。
+
+      - alert: EnrolldReadSLOSlowBurn
+        expr: |
+          enrolld:read_slo_error_ratio:rate6h > (6 * 0.01)
+          and
+          enrolld:read_slo_error_ratio:rate30m > (6 * 0.01)
+        for: 5m
+        labels:
+          severity: ticket
+        annotations:
+          summary: 读路径 SLO 预算持续燃烧
+          description: 过去 6 小时 {{ $value | humanizePercentage }} 的读请求未在 50 ms 内成功返回，燃烧率超过 6；按此速度约 5 天耗尽 30 天预算。

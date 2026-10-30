@@ -1,0 +1,52 @@
+{
+  "name": "o3-burn",
+  "prepared_at": "2026-10-30T17:04:34.435053+08:00",
+  "commands": [
+    [
+      "taskset",
+      "-c",
+      "0-1",
+      "tools/node_exporter",
+      "--web.listen-address=127.0.0.1:19100"
+    ],
+    [
+      "taskset",
+      "-c",
+      "0-1",
+      "tools/prometheus",
+      "--config.file=evidence/optional-20261030/o3-burn-prometheus.yml",
+      "--storage.tsdb.path=/dev/shm/lab2-prom-1001-o3-burn",
+      "--web.listen-address=127.0.0.1:19090"
+    ],
+    [
+      "taskset",
+      "-c",
+      "2-3",
+      "bin/enrolld",
+      "-addr",
+      "127.0.0.1:18080",
+      "-data",
+      "data/o3-burn",
+      "-sync",
+      "group"
+    ]
+  ],
+  "gogc": null,
+  "load_command": [
+    "scripts/run.sh",
+    "o3-burn",
+    "-url",
+    "http://127.0.0.1:18080/api/courses/1",
+    "-step",
+    "60s",
+    "-rates",
+    "200,200,200,420,420,420,420,200,200,200,200,200,200,200"
+  ],
+  "prediction": "evidence/optional-20261030/o3-prediction.md",
+  "prediction_sha256": "3a60672975db56e9fc17a79b62ba47efffb48ec8cad3a8bc4ca6d0761e8ef428",
+  "prediction_mtime": "2026-10-30T17:03:14.047975+08:00",
+  "commit": "c8f65c288af8aacaa19540a7593c76abd072eeca",
+  "measurement_started_at": "2026-10-30T17:04:54.478573+08:00",
+  "measurement_finished_at": "2026-10-30T17:18:55.864075+08:00",
+  "cleanup_at": "2026-10-30T17:19:24.570270+08:00"
+}

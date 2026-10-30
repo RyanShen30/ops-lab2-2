@@ -1,0 +1,2 @@
+2026/10/30 17:04:34 enrolld 监听 127.0.0.1:18080；GOMAXPROCS=2；读：work=200000、pool=4、db-ms=10；写：sync=group，数据目录 data/o3-burn
+2026/10/30 17:19:24 已停止

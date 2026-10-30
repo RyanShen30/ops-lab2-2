@@ -1,0 +1,15 @@
+{
+  "addr": "127.0.0.1:18080",
+  "work": 200000,
+  "pool": 4,
+  "db_ms": 10,
+  "pool_timeout": "1s",
+  "sync": "each",
+  "sync_interval": "1s",
+  "data": "data/o1-gogc400",
+  "go_version": "go1.26.9",
+  "gomaxprocs": 2,
+  "gogc": "400",
+  "pid": 1317994,
+  "started": "2026-10-30T17:21:56+08:00"
+}

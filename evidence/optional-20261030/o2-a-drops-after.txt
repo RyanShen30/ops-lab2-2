@@ -1,0 +1,4 @@
+# 实验后在 A 上记录（2026-10-30T21:31:23+08:00）：网卡与内核收包丢弃计数（开机以来累计）
+eth0 rx_drop 0 tx_drop 0
+softnet dropped 0 time_squeeze 176
+网卡队列: rx-0 rx-1 tx-0 tx-1 
